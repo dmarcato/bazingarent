@@ -15,12 +15,12 @@ a,a:link {
 a:visited {
 	color: #000000;
 	text-decoration: underline;
-	font-variant: italic;
+	font-style: italic;
 }
 
 a:hover {
 	color: #000000;
-	background-color: #999999;/*#fbcb8c;*/
+	background-color: #fff;/*#fbcb8c;*/
 	text-decoration: none;
 }
 
@@ -36,35 +36,44 @@ a:hover {
 
 #path {
 	width: 100%;
-	height: 20px;
 	clear: both;
 	background-color: #a4c0ff;
 	border-top: 1px solid #ffffff;
 	border-bottom: 1px solid #ffffff;
-	padding-top: 3px;
-	padding-left: 8px;
+	text-align: center;
 }
 
 #navigazione {
-	margin: 10px 0px 0px 0px;
 	list-style: none;
-	padding: 0px;
-	float: left;
-	width: 15%;
+	margin: 0;
+	padding: 0;
+	font-size: 1.3em;
+	font-variant: small-caps;
+	font-weight: bold;
 }
 
 #navigazione li {
-	text-indent: 1em;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0.5em;
 }
 
-#navigazione li:hover {
-	background-color: #fbcb8c;
+#navigazione li.current, #navigazione li:hover {
+	background-color: #fff;
+}
+
+#navigazione a, #navigazione a:link, #navigazione a:visited, #navigazione a:hover {
+	color: #110e86;
 }
 
 #content {
 	background-color: #ddddff;
-	margin-left: 16%;
+	margin: auto;
+	width: 80%;
 	padding: 1em;
+	border-bottom: 1px solid #fff;
+	border-right: 1px solid #fff;
+	border-left: 1px solid #fff;
 }
 
 #footer {
