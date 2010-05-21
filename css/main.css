@@ -74,6 +74,12 @@ a:hover {
 	border-left: 1px solid #fff;
 }
 
+h1 {
+	color: #110e86;
+	font-size: 1.9em;
+	margin: 0.3em;
+}
+
 #footer {
 	text-align: center;
 	font-size: 0.7em;
@@ -87,5 +93,5 @@ p.intro {
 	width: 20%;
 	padding: 0.3em;
 	border: 1px solid #fff;
-	background-color: #a4c0dd;
+	background-color: #a4c0ee;
 }
