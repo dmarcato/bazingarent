@@ -1,5 +1,5 @@
 body {
-	background-color: #333333;
+	background-color: #a4c0ff;
 	color: #000000;
 	margin: 0;
 	padding: 0;
@@ -26,10 +26,21 @@ a:hover {
 	width: 100%;
 	height: 150px;
 	clear: both;
-	background-color: #333333;
-	background-image: url("../images/header.png");
+	background-color: #a4c0ff;
+	/*background-image: url("../images/header.png");*/
 	background-repeat: no-repeat;
 	background-position: left;
+}
+
+#path {
+	width: 100%;
+	height: 20px;
+	clear: both;
+	background-color: #a4c0ff;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	padding-top: 3px;
+	padding-left: 8px;
 }
 
 #navigazione {
@@ -49,21 +60,14 @@ a:hover {
 }
 
 #content {
-	background-color: #ffffff;
+	background-color: #ddddff;
 	margin-left: 16%;
 	height: 400px;
 	padding: 1em;
 }
 
-#login  {
-	float: right;
-	border: 1px solid #fcdc9d;
-	padding: 4px;
-	text-align: right;
-}
-
 #footer {
-	background-color: #333333;
+	background-color: #a4c0ff;
 	text-align: center;
 	font-size: 0.7em;
 	padding: 5px 0px 5px 0px;
