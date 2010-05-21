@@ -95,3 +95,30 @@ p.intro {
 	border: 1px solid #fff;
 	background-color: #a4c0ee;
 }
+
+.box_film {
+	width: 400px;
+	height: 215px;
+	border: 1px dotted #fff;
+	padding: 0.2em;
+	float: left;
+}
+
+.box_film img {
+	float: left;
+	width: 150px;
+	height: 213px;
+	margin-right: 5px;
+}
+
+.box_film .titolo {
+	font-weight: bold;
+}
+
+.box_film .info {
+	font-size: 0.8em;
+}
+
+.box_film .more {
+	float: right;
+}
