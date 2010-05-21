@@ -1,5 +1,13 @@
+body {
+	text-align: center;
+}
+
 #navigazione li {
 	display: inline;
 	vertical-align: middle;
 	padding: 0.5em;
+}
+
+#content {
+	text-align: left;
 }
