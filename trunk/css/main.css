@@ -18,7 +18,8 @@ a:visited {
 
 a:hover {
 	color: #ffffff;
-	text-decoration: none;
+	text-decoration: underline;
+	background-color: #fbcb8c;
 }
 
 #header {
@@ -61,7 +62,6 @@ a:hover {
 #content {
 	background-color: #ddddff;
 	margin-left: 16%;
-	height: 400px;
 	padding: 1em;
 }
 
