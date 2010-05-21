@@ -8,17 +8,20 @@ body {
 }
 
 a,a:link {
-	color: #ffffff;
-}
-
-a:visited {
-	color: #ffffff;
+	color: #000000;
 	text-decoration: underline;
 }
 
+a:visited {
+	color: #000000;
+	text-decoration: underline;
+	font-variant: italic;
+}
+
 a:hover {
-	color: #ffffff;
-	background-color: #fbcb8c;
+	color: #000000;
+	background-color: #999999;/*#fbcb8c;*/
+	text-decoration: none;
 }
 
 #header {
