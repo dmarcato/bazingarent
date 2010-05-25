@@ -19,6 +19,16 @@
 	<![endif]-->
 	
 	<script type="text/javascript" src="./js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="./js/jquery.xslt.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$.xslt({
+				xmlUrl:"./xml/film.xml",
+				xslUrl:"./xml/ultimiArrivi.xsl",
+				target:"#sub"
+			});
+		});
+	</script>
 	
 </head>
 <body>
@@ -42,8 +52,8 @@
 			<p class="intro">Benvenuto su Bazinga Rent! Controlla online gli ultimi film arrivati alla nostra videoteca e quelli che saranno a disposizione a breve! Per ogni film potrai consultare se al momento &egrave; disponibile e in che quantit&agrave;.</p>
 
 			<h1>Ultimi arrivi</h1>
-			
-			<div class="contBox">
+			<div id="sub"></div>
+			<!--<div class="contBox">
 				
 			<div class="boxFilmL">
 				<img src="./images/la principessa e il ranocchio.jpg" alt="La principessa e il ranocchio" />
@@ -101,7 +111,7 @@
 				<a href="" title="Scheda film" class="more">Scheda film</a>
 			</div>
 			
-			</div>
+			</div>-->
 
 		</div>
 		
