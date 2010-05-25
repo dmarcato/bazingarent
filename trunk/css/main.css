@@ -89,8 +89,9 @@ h1 {
 }
 
 p.intro {
-	float: right;
-	width: 20%;
+	text-align: center;
+	/*float: right;*/
+	width: 100%;
 	padding: 0.3em;
 	border: 1px solid #fff;
 	background-color: #a4c0ee;
@@ -121,28 +122,60 @@ p.intro {
 	margin-top: 5px;
 }
 
-.box_film {
-	width: 400px;
-	height: 215px;
-	border: 1px dotted #fff;
-	padding: 0.2em;
-}
-
-.box_film img {
+.boxFilmL img {
 	float: left;
 	width: 150px;
 	height: 213px;
 	margin-right: 5px;
 }
 
-.box_film .titolo {
+.contBox {
+	width: 100%;
+	clear: both;
+	display: inline-block;
+}
+
+.boxFilmL {
+	float: left;
+	width: 45%;
+	border: dotted 1px #ffffff;
+	padding: 0.2em;
+}
+
+.boxFilmR {
+	float: right;
+	width: 45%;
+	border: dotted 1px #ffffff;
+	padding: 0.2em;
+}
+
+.boxFilmR img {
+	float: left;
+	width: 150px;
+	height: 213px;
+	margin-right: 5px;
+}
+
+.boxFilmL .titolo {
 	font-weight: bold;
 }
 
-.box_film .info {
+.boxFilmR .titolo {
+	font-weight: bold;
+}
+
+.boxFilmL .info {
 	font-size: 0.8em;
 }
 
-.box_film .more {
+.boxFilmR .info {
+	font-size: 0.8em;
+}
+
+.boxFilmL .more {
+	float: right;
+}
+
+.boxFilmR .more {
 	float: right;
 }
