@@ -26,7 +26,7 @@
 		<titolo>Prince of Persia - Le sabbie del tempo</titolo>
     	<regista>Mike Newell</regista>
     	<cast>Jake Gyllenhaal, Ben Kingsley, Gemma Arterton, Alfred Molina, Steve Toussaint</cast>
-    	<genere>azione</genere>
+    	<genere>Azione</genere>
 		<uscita>2010</uscita>
 		<descrizione>Ambientato nella Persia medievale, il film racconta la storia di un principe avventuroso che fa coppia con la principessa rivale per fermare un sovrano arrabbiato che vuole scatenare una tempesta di sabbia che può distruggere il mondo. Il principe viene ingannato da un Vizir morente a scatenare le Sabbie del Tempo che distruggono il regno e trasformano la popolazione in feroci demoni. Nello sforzo di salvare il proprio regno e di riscattare se stesso dall'errore fatale, tocca al principe e alla principessa far tornare le sabbie nella clessidra usando il Pugnale del Tempo, che da un controllo limitato sullo scorrere del tempo. </descrizione>
     	<image>http://www.mymovies.it/filmclub/2007/03/167/locandina.jpg</image>
@@ -39,22 +39,183 @@
 	</film>
 	
 	<film>
-		<titolo></titolo>
-    	<regista></regista>
-    	<cast></cast>
-		<genere></genere>
-		<uscita></uscita>
-		<descrizione></descrizione>
-    	<image></image>
+		<titolo>Alice in Wonderland</titolo>
+    	<regista>Tim Burton</regista>
+    	<cast>Mia Wasikowska, Johnny Depp, Helena Bonham Carter, Crispin Glover, Anne Hathaway</cast>
+		<genere>Fantastico</genere>
+		<uscita>2010</uscita>
+		<descrizione>Alice ha diciassette anni e scappa da un party altezzoso e segue il Bianconiglio giù per il buco, che la riporta nuovamente al Paese delle Meraviglie. Il Bianconiglio è convinto di avere la ragazza giusta, quella che ha visitato il magico mondo dieci anni prima. Ma Alice non si ricorda la sua visita precedente nel Paese delle Meraviglie, le cui creature sono pronte per una rivolta e sperano e aspettano che Alice li aiuti. Ma lei vorrà farlo? Lo potrà fare?</descrizione>
+    	<image>http://www.mymovies.it/filmclub/2008/06/094/locandina.jpg</image>
 		<data>
-			<giorno></giorno>
-			<mese></mese>
-			<anno></anno>
+			<giorno>19</giorno>
+			<mese>04</mese>
+			<anno>2010</anno>
 		</data>
-		<id></id>
+		<id>02</id>
 	</film>
 		
 	<film>
+		<titolo>Scusa ma ti voglio sposare</titolo>
+    	<regista>Federico Moccia</regista>
+    	<cast>Raoul Bova, Michela Quattrociocche, Luca Angeletti, Francesca Antonelli, Francesco Apolloni</cast>
+		<genere>Sentimentale</genere>
+		<uscita>2010</uscita>
+		<descrizione>Sequel della storia targata Moccia Scusa ma ti chiamo amore. Dopo tre anni, Alex capisce che nonostante la differenza di età, Niki è la donna che vuole sposare. Ritroviamo i loro amici di sempre, ognuno con le proprie storie, ognuno con le proprie attività, ognuno a confronto con la propria crescita, i propri sogni e progetti per il futuro.</descrizione>
+    	<image>http://www.mymovies.it/filmclub/2008/11/114/locandina.jpg</image>
+		<data>
+			<giorno>28</giorno>
+			<mese>03</mese>
+			<anno>2010</anno>
+		</data>
+		<id>03</id>
+	</film>
+	
+	<film>
+		<titolo>Scontro tra Titani</titolo>
+    	<regista>Louis Leterrier</regista>
+    	<cast>Sam Worthington, Liam Neeson, Ralph Fiennes, Gemma Arterton, Mads Mikkelsen</cast>
+		<genere>Avventura</genere>
+		<uscita>2010</uscita>
+		<descrizione>La battaglia finale per il potere ha messo gli uomini contro i re e i re contro gli dei, ma la guerra tra gli dei stessi potrebbe distruggere il mondo. Nato da un dio ma cresciuto come un uomo, Perseo è inerme nel salvare la sua famiglia da Hades, il vendicativo dio infernale. Con ormai niente da perdere Perseo si propone di condurre una pericolosa missione per sconfiggere Hades prima che si impadronisca del potere di Zeus e porti l'inferno sulla Terra. Guidando un gruppo di audaci guerrieri, Perseo partirà per un viaggio pericoloso nei mondi proibiti. Combattendo diabolici demoni e spaventose bestie, potrà sopravvivere solo se accetterà i suoi poteri come dio, sconfiggerà il suo fato e creerà il proprio destino.</descrizione>
+    	<image>http://www.mymovies.it/filmclub/2009/04/066/locandina.jpg</image>
+		<data>
+			<giorno>--</giorno>
+			<mese>--</mese>
+			<anno>--</anno>
+		</data>
+		<id>04</id>
+	</film>
+	
+	<film>
+		<titolo>Iron Man 2</titolo>
+    	<regista>Jon Favreau</regista>
+    	<cast>Robert Downey Jr., Gwyneth Paltrow, Don Cheadle, Scarlett Johansson, Sam Rockwell</cast>
+		<genere>Azione</genere>
+		<uscita>2010</uscita>
+		<descrizione>In "Iron Man 2," il mondo è consapevole che il miliardario inventore Tony Stark (Robert Downey Jr.) è il corazzato supereroe Iron Man. Sotto pressione da parte del governo, la stampa e il pubblico per condividere la sua tecnologia con i militari, Tony non è disposta a divulgare i segreti dietro l'armatura di Iron Man, perché teme che le informazioni scivolino nelle mani sbagliate. Con Pepper Potts (Gwyneth Paltrow) e James "Rhodey" Rhodes (Don Cheadle), al suo fianco, Tony crea nuove alleanze e affronta nuove e potenti forze.</descrizione>
+    	<image>http://www.mymovies.it/filmclub/2008/12/128/locandina.jpg</image>
+		<data>
+			<giorno>--</giorno>
+			<mese>--</mese>
+			<anno>--</anno>
+		</data>
+		<id>05</id>
+	</film>
+	
+	<film>
+		<titolo>Wolfman</titolo>
+    	<regista>Joe Johnston</regista>
+    	<cast>Benicio Del Toro, Anthony Hopkins, Emily Blunt, Hugo Weaving, Art Malik</cast>
+		<genere>Horror</genere>
+		<uscita>2010</uscita>
+		<descrizione>L'infanzia di Talbot è finita la morte in cui la madre è morta. Dopo aver lasciato il paesino addormentato Vittoriano di Blackmoor, ha passato decenni per riprendersi e cercare di dimenticare. Ma quando la fidanzata di suo fratello, Gwen Conliffe, lo rintraccia per chiedergli aiuto per cercare il suo perduto amore, Talbot ritorna a casa e si unisce alla ricerca. Scoprirà che qualcosa dotato di una forza bruta e di un'insaziabile sete di sangue sta uccidendo i paesani e che un sospettoso ispettore di Scotland Yard chiamato Aberline è venuto ad investigare.</descrizione>
+    	<image>http://www.mymovies.it/filmclub/2008/03/077/locandina.jpg</image>
+		<data>
+			<giorno>--</giorno>
+			<mese>--</mese>
+			<anno>--</anno>
+		</data>
+		<id>06</id>
+	</film>
+	
+	<film>
+		<titolo>Shutter Island</titolo>
+    	<regista>Martin Scorsese</regista>
+    	<cast>Leonardo DiCaprio, Mark Ruffalo, Ben Kingsley, Michelle Williams, Patricia Clarkson</cast>
+		<genere>Drammatico</genere>
+		<uscita>2010</uscita>
+		<descrizione>Niente è quello che sembra all'Ashecliffe Hospital. E nemmeno lo è Teddy Daniels. È lì per trovare un paziente che manca? O è stato mandato per investigare sui rumor riguardanti gli approcci radicali verso la psichiatria attuati all'Ashecliffe? Più Teddy e Chuck si avvicinano alla verità, più questa diventa incerta e più cominciano a credere che forse non lasceranno mai più Shutter Island. Perché qualcuno sta cercando di farli impazzire…</descrizione>
+    	<image>http://www.mymovies.it/filmclub/2009/03/099/locandina.jpg</image>
+		<data>
+			<giorno>18</giorno>
+			<mese>05</mese>
+			<anno>2010</anno>
+		</data>
+		<id>07</id>
+	</film>
+	
+	<film>
+		<titolo>Baciami ancora</titolo>
+    	<regista>Gabriele Muccino</regista>
+    	<cast>Stefano Accorsi, Vittoria Puccini, Pierfrancesco Favino, Claudio Santamaria, Giorgio Pasotti</cast>
+		<genere>Drammatico</genere>
+		<uscita>2010</uscita>
+		<descrizione>Uno sguardo, dieci anni dopo, alle vite di Carlo e Giulia, protagonisti de L'ultimo bacio. La storia si svolge a Roma, dieci anni dopo il primo episodio, e narra l'evoluzione della storia d'amore dei due protagonisti, le loro vite e quelle dei loro amici di sempre: Paolo, Adriano e Alberto, partiti per un goliardico viaggio alla fine del primo film che si rivelerà formativo, e Marco felicemente sposato con Veronica.</descrizione>
+    	<image>http://www.mymovies.it/filmclub/2009/06/055/locandina.jpg</image>
+		<data>
+			<giorno>30</giorno>
+			<mese>04</mese>
+			<anno>2010</anno>
+		</data>
+		<id>08</id>
+	</film>
+	
+	<film>
+		<titolo>Avatar</titolo>
+    	<regista>James Cameron</regista>
+    	<cast>Sam Worthington, Zoe Saldana, Sigourney Weaver, Stephen Lang, Michelle Rodriguez</cast>
+		<genere>Fantascienza</genere>
+		<uscita>2009</uscita>
+		<descrizione>Avatar ci porta in un mondo nuovo e spettacolare al di là di ogni immaginazione, dove un eroe ribelle si imbarca in un’avventura epica, che alla fine lo vedrà combattere per salvare il mondo alieno che ha imparato a chiamare casa. Il film era stato concepito da James Cameron, il regista Premio Oscar per “Titanic”, 15 anni fa, quando non esistevano ancora gli strumenti necessari per dare vita alla sua visione. Ora, dopo 4 anni di lavorazione, AVATAR , un film live action con una nuova generazione di effetti speciali, offre un’esperienza cinematografica a 360 gradi, assolutamente innovativa, dove la tecnologia rivoluzionaria creata per la realizzazione del film si fonde completamente con l’emozione pura dei personaggi, penetrando nel flusso della storia.</descrizione>
+    	<image>http://www.mymovies.it/filmclub/2008/03/090/locandina.jpg</image>
+		<data>
+			<giorno>02</giorno>
+			<mese>04</mese>
+			<anno>2010</anno>
+		</data>
+		<id>09</id>
+	</film>
+	
+	<film>
+		<titolo>Harry Potter e il principe mezzosangue</titolo>
+    	<regista>David Yates</regista>
+    	<cast>Daniel Radcliffe, Emma Watson, Rupert Grint, Michael Gambon, Alan Rickman</cast>
+		<genere>Fantastico</genere>
+		<uscita>2009</uscita>
+		<descrizione>Voldemort allunga la sua ombra minacciosa sia sul mondo dei Babbani che su quello dei maghi e Hogwarts non è più un posto sicuro e accogliente come in passato. Harry sospetta che i pericoli minacciano anche la scuola, ma Silente concentra la sua attenzione nel prepararlo alla battaglia finale che sa essere inevitabile. I due insieme cercano di penetrare nelle difese di Voldemort e quindi Silente chiama il vecchio amico e collega Horace Lumacorno, le cui competenze considera fondamentali.
+Nel frattempo gli studenti subiscono gli attacchi di un avversario molto particolare, quello degli ormoni adolescenziali. Harry è sempre più attratto da Ginny, così come Dean Thomas. Mentre Lavander Brown ha deciso che Ron è il tipo giusto per lei, Hermione soffre di gelosia, ma fa di tutto per non farlo vedere. Ma uno studente rimane in disparte, deciso a lasciare il suo segno, anche se cupo. L'amore è nell'aria, ma la tragedia è imminente e forse Hogwarts non sarà più la stessa.</descrizione>
+    	<image>http://www.mymovies.it/filmclub/2007/02/129/locandina.jpg</image>
+		<data>
+			<giorno>02</giorno>
+			<mese>02</mese>
+			<anno>2010</anno>
+		</data>
+		<id>10</id>
+	</film>
+	
+	<film>
+		<titolo>Angeli e Demoni</titolo>
+    	<regista>Ron Howard</regista>
+    	<cast>Tom Hanks, Ewan McGregor, Ayelet Zurer, Stellan Skarsgård, Pierfrancesco Favino</cast>
+		<genere>Thriller</genere>
+		<uscita>2009</uscita>
+		<descrizione>Langdon scopre le prove della rinascita di unantica confraternita segreta conosciuta come gli Illuminati, la più potente organizzazione sotto copertura della Storia, e deve anche fronteggiare un pericolo mortale per la sopravvivenza del nemico più disprezzato da questa confraternita: la Chiesa cattolica. Quando Langdon apprende che manca poco all'esplosione di una bomba piazzata in Vaticano dagli Illuminati, arriva in aereo a Roma, dove si allea con Vittoria Vetra, una bellissima ed enigmatica scienziata italiana. Imbarcandosi in una caccia senza soste e piena d’azione attraverso cripte sigillate, catacombe pericolose, cattedrali abbandonate e anche nel cuore della tomba più riservata sulla faccia della Terra, Langdon e Vetra seguono una scia di indizi risalenti a quattrocento anni prima, composti da simboli antichi, che rappresentano l'unica speranza di sopravvivenza per il Vaticano.</descrizione>
+    	<image>http://www.mymovies.it/filmclub/2008/10/022/locandina.jpg</image>
+		<data>
+			<giorno>09</giorno>
+			<mese>11</mese>
+			<anno>2009</anno>
+		</data>
+		<id>10</id>
+	</film>
+	
+	<film>
+		<titolo>L'era glaciale 3 - L'alba dei dinosauri</titolo>
+    	<regista>Carlos Saldanha</regista>
+    	<cast>Ray Romano, John Leguizamo, Denis Leary, Simon Pegg, Queen Latifah</cast>
+		<genere>Animazione</genere>
+		<uscita>2009</uscita>
+		<descrizione>Dopo gli eventi del secondo film, la vita comincia a cambiare per Manny e i suoi amici: Scrat è ancora alla caccia della sua amata ghianda, ma trova una possibile storia d'amore con la scoiattola Scratte. Manny e Ellie sono diventati una coppia e stanno aspettando un cucciolo, che rende Manny ansioso sul fatto che tutto sia perfetto per quando il piccolo arriverà. Diego è stufo di essere trattato come un gatto domestico e si domanda se sta diventando troppo rilassato. Sid comincia a volere una sua famiglia e ruba un uovo di dinosauro che lo porta a scoprire un mondo sotterraneo dove i suoi compagni devono salvarlo, evitando dinosauri e pericoli a destra e a manca e incontrando una donnola con un solo occhio, Buck, che caccia i dinosauri.</descrizione>
+    	<image>http://www.mymovies.it/filmclub/2008/03/061/locandina.jpg</image>
+		<data>
+			<giorno>15</giorno>
+			<mese>12</mese>
+			<anno>2009</anno>
+		</data>
+		<id>11</id>
+	</film>
+	
+<!--<film>
 		<titolo></titolo>
     	<regista></regista>
     	<cast></cast>
@@ -67,7 +228,7 @@
 			<mese></mese>
 			<anno></anno>
 		</data>
-		<id></id>
+		<id>12</id>
 	</film>
 	
 	<film>
@@ -83,7 +244,7 @@
 			<mese></mese>
 			<anno></anno>
 		</data>
-		<id></id>
+		<id>13</id>
 	</film>
 	
 	<film>
@@ -99,7 +260,7 @@
 			<mese></mese>
 			<anno></anno>
 		</data>
-		<id></id>
+		<id>14</id>
 	</film>
 	
 	<film>
@@ -115,7 +276,7 @@
 			<mese></mese>
 			<anno></anno>
 		</data>
-		<id></id>
+		<id>15</id>
 	</film>
 	
 	<film>
@@ -131,7 +292,7 @@
 			<mese></mese>
 			<anno></anno>
 		</data>
-		<id></id>
+		<id>16</id>
 	</film>
 	
 	<film>
@@ -147,7 +308,7 @@
 			<mese></mese>
 			<anno></anno>
 		</data>
-		<id></id>
+		<id>17</id>
 	</film>
 	
 	<film>
@@ -163,7 +324,7 @@
 			<mese></mese>
 			<anno></anno>
 		</data>
-		<id></id>
+		<id>18</id>
 	</film>
 	
 	<film>
@@ -179,7 +340,7 @@
 			<mese></mese>
 			<anno></anno>
 		</data>
-		<id></id>
+		<id>19</id>
 	</film>
 	
 	<film>
@@ -195,7 +356,7 @@
 			<mese></mese>
 			<anno></anno>
 		</data>
-		<id></id>
+		<id>20</id>
 	</film>
 	
 	<film>
@@ -211,7 +372,7 @@
 			<mese></mese>
 			<anno></anno>
 		</data>
-		<id></id>
-	</film>
+		<id>21</id>
+	</film> -->
 
 </lista>
