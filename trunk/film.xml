@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!--DTD Schema interno-->
+
+<!DOCTYPE lista [
+<!ELEMENT lista (film+)>
+<!ELEMENT film (titolo,regista,cast,anno,casa,descrizione,image,uscita,data)>
+	<!ELEMENT titolo (#PCDATA)>
+	<!ELEMENT regista (#PCDATA)>
+	<!ELEMENT cast (#PCDATA)>
+	<!ELEMENT anno (#PCDATA)>
+	<!ELEMENT casa (#PCDATA)>
+	<!ELEMENT uscita (#PCDATA)>
+	<!ELEMENT descrizione (#PCDATA)>
+	<!ELEMENT image (#PCDATA)>
+	<!ELEMENT data (giorno,mese,anno)>
+		<!ELEMENT giorno (#PCDATA)>
+		<!ELEMENT mese (#PCDATA)>
+		<!ELEMENT anno (#PCDATA)>
+<!ATTLIST film id ID #REQUIRED>
+]>
+
+<!--XML Schema-->
+
+<lista>
+	<film>
+		<titolo></titolo>
+    	<regista></regista>
+    	<cast></cast>
+    	<anno></anno>
+    	<casa></casa>
+		<uscita></uscita>
+		<descrizione></descrizione>
+    	<image></image>
+		<data>
+			<giorno></giorno>
+			<mese></mese>
+			<anno></anno>
+		</data>
+		<id></id>
+	</film>
+	
+	<film>
+		<titolo></titolo>
+    	<regista></regista>
+    	<cast></cast>
+    	<anno></anno>
+    	<casa></casa>
+		<uscita></uscita>
+		<descrizione></descrizione>
+    	<image></image>
+		<data>
+			<giorno></giorno>
+			<mese></mese>
+			<anno></anno>
+		</data>
+		<id></id>
+	</film>
+		
+	<film>
+		<titolo></titolo>
+    	<regista></regista>
+    	<cast></cast>
+    	<anno></anno>
+    	<casa></casa>
+		<uscita></uscita>
+		<descrizione></descrizione>
+    	<image></image>
+		<data>
+			<giorno></giorno>
+			<mese></mese>
+			<anno></anno>
+		</data>
+		<id></id>
+	</film>
+	
+	<film>
+		<titolo></titolo>
+    	<regista></regista>
+    	<cast></cast>
+    	<anno></anno>
+    	<casa></casa>
+		<uscita></uscita>
+		<descrizione></descrizione>
+    	<image></image>
+		<data>
+			<giorno></giorno>
+			<mese></mese>
+			<anno></anno>
+		</data>
+		<id></id>
+	</film>
+	
+	<film>
+		<titolo></titolo>
+    	<regista></regista>
+    	<cast></cast>
+    	<anno></anno>
+    	<casa></casa>
+		<uscita></uscita>
+		<descrizione></descrizione>
+    	<image></image>
+		<data>
+			<giorno></giorno>
+			<mese></mese>
+			<anno></anno>
+		</data>
+		<id></id>
+	</film>
+	
+	<film>
+		<titolo></titolo>
+    	<regista></regista>
+    	<cast></cast>
+    	<anno></anno>
+    	<casa></casa>
+		<uscita></uscita>
+		<descrizione></descrizione>
+    	<image></image>
+		<data>
+			<giorno></giorno>
+			<mese></mese>
+			<anno></anno>
+		</data>
+		<id></id>
+	</film>
+	
+	<film>
+		<titolo></titolo>
+    	<regista></regista>
+    	<cast></cast>
+    	<anno></anno>
+    	<casa></casa>
+		<uscita></uscita>
+		<descrizione></descrizione>
+    	<image></image>
+		<data>
+			<giorno></giorno>
+			<mese></mese>
+			<anno></anno>
+		</data>
+		<id></id>
+	</film>
+	
+	<film>
+		<titolo></titolo>
+    	<regista></regista>
+    	<cast></cast>
+    	<anno></anno>
+    	<casa></casa>
+		<uscita></uscita>
+		<descrizione></descrizione>
+    	<image></image>
+		<data>
+			<giorno></giorno>
+			<mese></mese>
+			<anno></anno>
+		</data>
+		<id></id>
+	</film>
+	
+</lista>
