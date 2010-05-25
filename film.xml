@@ -4,12 +4,11 @@
 
 <!DOCTYPE lista [
 <!ELEMENT lista (film+)>
-<!ELEMENT film (titolo,regista,cast,anno,casa,descrizione,image,uscita,data)>
+<!ELEMENT film (titolo,regista,cast,genere,uscita,descrizione,image,data)>
 	<!ELEMENT titolo (#PCDATA)>
 	<!ELEMENT regista (#PCDATA)>
 	<!ELEMENT cast (#PCDATA)>
-	<!ELEMENT anno (#PCDATA)>
-	<!ELEMENT casa (#PCDATA)>
+	<!ELEMENT genere (#PCDATA)>
 	<!ELEMENT uscita (#PCDATA)>
 	<!ELEMENT descrizione (#PCDATA)>
 	<!ELEMENT image (#PCDATA)>
@@ -24,28 +23,26 @@
 
 <lista>
 	<film>
-		<titolo></titolo>
-    	<regista></regista>
-    	<cast></cast>
-    	<anno></anno>
-    	<casa></casa>
-		<uscita></uscita>
-		<descrizione></descrizione>
-    	<image></image>
+		<titolo>Prince of Persia - Le sabbie del tempo</titolo>
+    	<regista>Mike Newell</regista>
+    	<cast>Jake Gyllenhaal, Ben Kingsley, Gemma Arterton, Alfred Molina, Steve Toussaint</cast>
+    	<genere>azione</genere>
+		<uscita>2010</uscita>
+		<descrizione>Ambientato nella Persia medievale, il film racconta la storia di un principe avventuroso che fa coppia con la principessa rivale per fermare un sovrano arrabbiato che vuole scatenare una tempesta di sabbia che può distruggere il mondo. Il principe viene ingannato da un Vizir morente a scatenare le Sabbie del Tempo che distruggono il regno e trasformano la popolazione in feroci demoni. Nello sforzo di salvare il proprio regno e di riscattare se stesso dall'errore fatale, tocca al principe e alla principessa far tornare le sabbie nella clessidra usando il Pugnale del Tempo, che da un controllo limitato sullo scorrere del tempo. </descrizione>
+    	<image>http://www.mymovies.it/filmclub/2007/03/167/locandina.jpg</image>
 		<data>
-			<giorno></giorno>
-			<mese></mese>
-			<anno></anno>
+			<giorno>--</giorno>
+			<mese>--</mese>
+			<anno>--</anno>
 		</data>
-		<id></id>
+		<id>01</id>
 	</film>
 	
 	<film>
 		<titolo></titolo>
     	<regista></regista>
     	<cast></cast>
-    	<anno></anno>
-    	<casa></casa>
+		<genere></genere>
 		<uscita></uscita>
 		<descrizione></descrizione>
     	<image></image>
@@ -61,8 +58,7 @@
 		<titolo></titolo>
     	<regista></regista>
     	<cast></cast>
-    	<anno></anno>
-    	<casa></casa>
+		<genere></genere>
 		<uscita></uscita>
 		<descrizione></descrizione>
     	<image></image>
@@ -78,8 +74,7 @@
 		<titolo></titolo>
     	<regista></regista>
     	<cast></cast>
-    	<anno></anno>
-    	<casa></casa>
+		<genere></genere>
 		<uscita></uscita>
 		<descrizione></descrizione>
     	<image></image>
@@ -95,8 +90,7 @@
 		<titolo></titolo>
     	<regista></regista>
     	<cast></cast>
-    	<anno></anno>
-    	<casa></casa>
+		<genere></genere>
 		<uscita></uscita>
 		<descrizione></descrizione>
     	<image></image>
@@ -112,8 +106,7 @@
 		<titolo></titolo>
     	<regista></regista>
     	<cast></cast>
-    	<anno></anno>
-    	<casa></casa>
+		<genere></genere>
 		<uscita></uscita>
 		<descrizione></descrizione>
     	<image></image>
@@ -129,8 +122,7 @@
 		<titolo></titolo>
     	<regista></regista>
     	<cast></cast>
-    	<anno></anno>
-    	<casa></casa>
+		<genere></genere>
 		<uscita></uscita>
 		<descrizione></descrizione>
     	<image></image>
@@ -146,8 +138,7 @@
 		<titolo></titolo>
     	<regista></regista>
     	<cast></cast>
-    	<anno></anno>
-    	<casa></casa>
+		<genere></genere>
 		<uscita></uscita>
 		<descrizione></descrizione>
     	<image></image>
@@ -159,4 +150,68 @@
 		<id></id>
 	</film>
 	
+	<film>
+		<titolo></titolo>
+    	<regista></regista>
+    	<cast></cast>
+		<genere></genere>
+		<uscita></uscita>
+		<descrizione></descrizione>
+    	<image></image>
+		<data>
+			<giorno></giorno>
+			<mese></mese>
+			<anno></anno>
+		</data>
+		<id></id>
+	</film>
+	
+	<film>
+		<titolo></titolo>
+    	<regista></regista>
+    	<cast></cast>
+		<genere></genere>
+		<uscita></uscita>
+		<descrizione></descrizione>
+    	<image></image>
+		<data>
+			<giorno></giorno>
+			<mese></mese>
+			<anno></anno>
+		</data>
+		<id></id>
+	</film>
+	
+	<film>
+		<titolo></titolo>
+    	<regista></regista>
+    	<cast></cast>
+		<genere></genere>
+		<uscita></uscita>
+		<descrizione></descrizione>
+    	<image></image>
+		<data>
+			<giorno></giorno>
+			<mese></mese>
+			<anno></anno>
+		</data>
+		<id></id>
+	</film>
+	
+	<film>
+		<titolo></titolo>
+    	<regista></regista>
+    	<cast></cast>
+		<genere></genere>
+		<uscita></uscita>
+		<descrizione></descrizione>
+    	<image></image>
+		<data>
+			<giorno></giorno>
+			<mese></mese>
+			<anno></anno>
+		</data>
+		<id></id>
+	</film>
+
 </lista>
