@@ -96,6 +96,31 @@ p.intro {
 	background-color: #a4c0ee;
 }
 
+#descrizioneMappaTop {
+	width: 70%;
+	padding: 0.3em;
+	border: 1px solid #fff;
+	background-color: #a4c0ee;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 8px;
+}
+
+#mappa {
+	text-align: center;
+	clear: both;
+}
+
+#descrizioneMappaBottom {
+	width: 35%;
+	padding: 0.3em;
+	border: 1px solid #fff;
+	background-color: #a4c0ee;
+	text-align: center;
+	margin: auto;
+	margin-top: 5px;
+}
+
 .box_film {
 	width: 400px;
 	height: 215px;
