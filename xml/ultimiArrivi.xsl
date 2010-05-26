@@ -2,10 +2,13 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:output method='html' version='1.0' encoding='UTF-8' indent='yes'/>
 <xsl:template match="/">
+	
 	<div class="contBox">
 		<xsl:for-each select="lista/film">
 			
-			<xsl:if test="(position() mod 2)=1">
+			<xsl:sort select="data" order="descending" />
+			
+			<xsl:if test="((position() mod 2)=1) and (position() &lt; 7)">
 		
 				<div class="boxFilmL">
 					<img alt="La principessa e il ranocchio">
@@ -19,7 +22,7 @@
 				
 			</xsl:if>
 			
-			<xsl:if test="(position() mod 2)=0">
+			<xsl:if test="((position() mod 2)=0) and (position() &lt; 7)">
 		
 				<div class="boxFilmR">
 					<img alt="La principessa e il ranocchio">
