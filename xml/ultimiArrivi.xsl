@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:output method='html' version='1.0' encoding='UTF-8' indent='yes'/>
 <xsl:template match="/">
 	
@@ -11,8 +10,9 @@
 			<xsl:if test="((position() mod 2)=1) and (position() &lt; 7)">
 		
 				<div class="boxFilmL">
-					<img alt="La principessa e il ranocchio">
+					<img>
 						<xsl:attribute name="src"><xsl:value-of select="image" /></xsl:attribute>
+						<xsl:attribute name="alt"><xsl:value-of select="titolo" /></xsl:attribute>
 					</img>
 					<p class="titolo"><xsl:value-of select="titolo" /></p>
 					<p class="info"><xsl:value-of select="uscita" /></p>
@@ -25,8 +25,9 @@
 			<xsl:if test="((position() mod 2)=0) and (position() &lt; 7)">
 		
 				<div class="boxFilmR">
-					<img alt="La principessa e il ranocchio">
+					<img>
 						<xsl:attribute name="src"><xsl:value-of select="image" /></xsl:attribute>
+						<xsl:attribute name="alt"><xsl:value-of select="titolo" /></xsl:attribute>
 					</img>
 					<p class="titolo"><xsl:value-of select="titolo" /></p>
 					<p class="info"><xsl:value-of select="uscita" /></p>
