@@ -16,7 +16,8 @@
 		<!ELEMENT anno (#PCDATA)>
 		<!ELEMENT mese (#PCDATA)>
 		<!ELEMENT giorno (#PCDATA)>
-<!ATTLIST film id ID #REQUIRED>
+	<!ELEMENT id (#PCDATA)>
+	<!ELEMENT link (#PCDATA)>
 ]>
 
 <!--XML Schema-->
@@ -36,6 +37,7 @@
 			<giorno>--</giorno>
 		</data>
 		<id>01</id>
+		<link></link>
 	</film>
 	
 	<film>
@@ -52,6 +54,7 @@
 			<giorno>19</giorno>
 		</data>
 		<id>02</id>
+		<link></link>
 	</film>
 		
 	<film>
@@ -68,6 +71,7 @@
 			<giorno>28</giorno>
 		</data>
 		<id>03</id>
+		<link></link>
 	</film>
 	
 	<film>
@@ -84,6 +88,7 @@
 			<giorno>--</giorno>
 		</data>
 		<id>04</id>
+		<link></link>
 	</film>
 	
 	<film>
@@ -100,6 +105,7 @@
 			<giorno>--</giorno>
 		</data>
 		<id>05</id>
+		<link></link>
 	</film>
 	
 	<film>
@@ -116,6 +122,7 @@
 			<giorno>--</giorno>
 		</data>
 		<id>06</id>
+		<link></link>
 	</film>
 	
 	<film>
@@ -132,6 +139,7 @@
 			<giorno>18</giorno>
 		</data>
 		<id>07</id>
+		<link></link>
 	</film>
 	
 	<film>
@@ -148,6 +156,7 @@
 			<giorno>30</giorno>
 		</data>
 		<id>08</id>
+		<link></link>
 	</film>
 	
 	<film>
@@ -164,6 +173,7 @@
 			<giorno>02</giorno>
 		</data>
 		<id>09</id>
+		<link></link>
 	</film>
 	
 	<film>
@@ -181,6 +191,7 @@ Nel frattempo gli studenti subiscono gli attacchi di un avversario molto partico
 			<giorno>02</giorno>
 		</data>
 		<id>10</id>
+		<link></link>
 	</film>
 	
 	<film>
@@ -197,6 +208,7 @@ Nel frattempo gli studenti subiscono gli attacchi di un avversario molto partico
 			<giorno>09</giorno>
 		</data>
 		<id>11</id>
+		<link></link>
 	</film>
 	
 	<film>
@@ -213,6 +225,7 @@ Nel frattempo gli studenti subiscono gli attacchi di un avversario molto partico
 			<giorno>15</giorno>
 		</data>
 		<id>12</id>
+		<link></link>
 	</film>
 	
 <!--<film>
@@ -229,6 +242,7 @@ Nel frattempo gli studenti subiscono gli attacchi di un avversario molto partico
 			<anno></anno>
 		</data>
 		<id>12</id>
+		<link></link>
 	</film>
 	
 	<film>
@@ -245,6 +259,7 @@ Nel frattempo gli studenti subiscono gli attacchi di un avversario molto partico
 			<anno></anno>
 		</data>
 		<id>13</id>
+		<link></link>
 	</film>
 	
 	<film>
@@ -261,6 +276,7 @@ Nel frattempo gli studenti subiscono gli attacchi di un avversario molto partico
 			<anno></anno>
 		</data>
 		<id>14</id>
+		<link></link>
 	</film>
 	
 	<film>
@@ -277,6 +293,7 @@ Nel frattempo gli studenti subiscono gli attacchi di un avversario molto partico
 			<anno></anno>
 		</data>
 		<id>15</id>
+		<link></link>
 	</film>
 	
 	<film>
@@ -293,6 +310,7 @@ Nel frattempo gli studenti subiscono gli attacchi di un avversario molto partico
 			<anno></anno>
 		</data>
 		<id>16</id>
+		<link></link>
 	</film>
 	
 	<film>
@@ -309,6 +327,7 @@ Nel frattempo gli studenti subiscono gli attacchi di un avversario molto partico
 			<anno></anno>
 		</data>
 		<id>17</id>
+		<link></link>
 	</film>
 	
 	<film>
@@ -325,6 +344,7 @@ Nel frattempo gli studenti subiscono gli attacchi di un avversario molto partico
 			<anno></anno>
 		</data>
 		<id>18</id>
+		<link></link>
 	</film>
 	
 	<film>
@@ -341,6 +361,7 @@ Nel frattempo gli studenti subiscono gli attacchi di un avversario molto partico
 			<anno></anno>
 		</data>
 		<id>19</id>
+		<link></link>
 	</film>
 	
 	<film>
@@ -357,6 +378,7 @@ Nel frattempo gli studenti subiscono gli attacchi di un avversario molto partico
 			<anno></anno>
 		</data>
 		<id>20</id>
+		<link></link>
 	</film>
 	
 	<film>
@@ -373,6 +395,7 @@ Nel frattempo gli studenti subiscono gli attacchi di un avversario molto partico
 			<anno></anno>
 		</data>
 		<id>21</id>
+		<link></link>
 	</film> -->
 
 </lista>
