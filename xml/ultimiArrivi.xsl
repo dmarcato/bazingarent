@@ -36,5 +36,3 @@
 	</div>
 
 </xsl:template>
-
-<xsl:template match=""
