@@ -179,3 +179,16 @@ p.intro {
 .boxFilmR .more {
 	float: right;
 }
+
+.descr {
+	height: 100px;
+}
+
+#cerca {
+	float: right;
+	width: 35%;
+}
+
+#txtCerca {
+	width: 200px;
+}
