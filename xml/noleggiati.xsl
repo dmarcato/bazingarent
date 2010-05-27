@@ -18,7 +18,7 @@
 					<div class="descr">
 						<p class="descrizione"><xsl:value-of select="descrizione" /></p>
 					</div>
-					<a title="Scheda film" class="more">
+					<a title="Scheda film" class="more" target="_blank">
 						<xsl:attribute name="href"><xsl:value-of select="link" /></xsl:attribute>
 					Scheda film</a>
 				</div>
@@ -37,7 +37,7 @@
 					<div class="descr">
 						<p class="descrizione"><xsl:value-of select="descrizione" /></p>
 					</div>
-					<a title="Scheda film" class="more">
+					<a title="Scheda film" class="more" target="_blank">
 						<xsl:attribute name="href"><xsl:value-of select="link" /></xsl:attribute>
 					Scheda film</a>
 				</div>
