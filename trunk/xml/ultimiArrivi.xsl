@@ -16,7 +16,9 @@
 					</img>
 					<p class="titolo"><xsl:value-of select="titolo" /></p>
 					<p class="info"><xsl:value-of select="uscita" /></p>
-					<p class="descrizione">Bla bla bla bla</p>
+					<div class="descr">
+						<p class="descrizione"><xsl:value-of select="descrizione" /></p>
+					</div>
 					<a href="" title="Scheda film" class="more">Scheda film</a>
 				</div>
 				
@@ -31,7 +33,9 @@
 					</img>
 					<p class="titolo"><xsl:value-of select="titolo" /></p>
 					<p class="info"><xsl:value-of select="uscita" /></p>
-					<p class="descrizione">Bla bla bla bla</p>
+					<div class="descr">
+						<p class="descrizione"><xsl:value-of select="descrizione" /></p>
+					</div>
 					<a href="" title="Scheda film" class="more">Scheda film</a>
 				</div>
 				
