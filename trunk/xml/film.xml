@@ -1,234 +1,332 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-
-<!--DTD Schema interno-->
-
-<!DOCTYPE lista [
-<!ELEMENT lista (film+)>
-<!ELEMENT film (titolo,regista,cast,genere,uscita,descrizione,image,data)>
-	<!ELEMENT titolo (#PCDATA)>
-	<!ELEMENT regista (#PCDATA)>
-	<!ELEMENT cast (#PCDATA)>
-	<!ELEMENT genere (#PCDATA)>
-	<!ELEMENT uscita (#PCDATA)>
-	<!ELEMENT descrizione (#PCDATA)>
-	<!ELEMENT image (#PCDATA)>
-	<!ELEMENT data (anno,mese,giorno)>
-		<!ELEMENT anno (#PCDATA)>
-		<!ELEMENT mese (#PCDATA)>
-		<!ELEMENT giorno (#PCDATA)>
-	<!ELEMENT id (#PCDATA)>
-	<!ELEMENT link (#PCDATA)>
-]>
-
-<!--XML Schema-->
+<!DOCTYPE lista SYSTEM "./BazingaRent/xml/lista.dtd">
 
 <lista>
-	<film>
+	<film id="01">
 		<titolo>Prince of Persia - Le sabbie del tempo</titolo>
     	<regista>Mike Newell</regista>
     	<cast>Jake Gyllenhaal, Ben Kingsley, Gemma Arterton, Alfred Molina, Steve Toussaint</cast>
     	<genere>Azione</genere>
 		<uscita>2010</uscita>
-		<descrizione>Ambientato nella Persia medievale, il film racconta la storia di un principe avventuroso che fa coppia con la principessa rivale per fermare un sovrano arrabbiato che vuole scatenare una tempesta di sabbia che può distruggere il mondo. Il principe viene ingannato da un Vizir morente a scatenare le Sabbie del Tempo che distruggono il regno e trasformano la popolazione in feroci demoni. Nello sforzo di salvare il proprio regno e di riscattare se stesso dall'errore fatale, tocca al principe e alla principessa far tornare le sabbie nella clessidra usando il Pugnale del Tempo, che da un controllo limitato sullo scorrere del tempo. </descrizione>
+		<descrizione>Ambientato nella Persia medievale, il film racconta la storia di un principe avventuroso che fa coppia con la principessa rivale per fermare un sovrano arrabbiato che vuole scatenare una tempesta di sabbia che pu&ograve; distruggere il mondo...</descrizione>
     	<image>http://www.mymovies.it/filmclub/2007/03/167/locandina.jpg</image>
 		<data>
 			<anno>--</anno>
 			<mese>--</mese>
 			<giorno>--</giorno>
 		</data>
-		<id>01</id>
-		<link></link>
+		<link>http://www.mymovies.it/film/2010/princeofpersialesabbiedeltempo/</link>
+		<disp>--</disp>
+		<noleggi>--</noleggi> 
 	</film>
 	
-	<film>
+	<film id="02">
 		<titolo>Alice in Wonderland</titolo>
     	<regista>Tim Burton</regista>
     	<cast>Mia Wasikowska, Johnny Depp, Helena Bonham Carter, Crispin Glover, Anne Hathaway</cast>
 		<genere>Fantastico</genere>
 		<uscita>2010</uscita>
-		<descrizione>Alice ha diciassette anni e scappa da un party altezzoso e segue il Bianconiglio giù per il buco, che la riporta nuovamente al Paese delle Meraviglie. Il Bianconiglio è convinto di avere la ragazza giusta, quella che ha visitato il magico mondo dieci anni prima. Ma Alice non si ricorda la sua visita precedente nel Paese delle Meraviglie, le cui creature sono pronte per una rivolta e sperano e aspettano che Alice li aiuti. Ma lei vorrà farlo? Lo potrà fare?</descrizione>
+		<descrizione>Alice ha diciassette anni e scappa da un party altezzoso e segue il Bianconiglio gi&ugrave; per il buco, che la riporta nuovamente al Paese delle Meraviglie. Il Bianconiglio &egrave; convinto di avere la ragazza giusta, quella che ha visitato il magico mondo...</descrizione>
     	<image>http://www.mymovies.it/filmclub/2008/06/094/locandina.jpg</image>
 		<data>
 			<anno>2010</anno>
 			<mese>04</mese>
 			<giorno>19</giorno>
 		</data>
-		<id>02</id>
-		<link></link>
+		<link>http://www.mymovies.it/film/2010/aliceinwonderland/</link>
+		<disp>03</disp>
+		<noleggi>25</noleggi>
 	</film>
 		
-	<film>
+	<film id="03">
 		<titolo>Scusa ma ti voglio sposare</titolo>
     	<regista>Federico Moccia</regista>
     	<cast>Raoul Bova, Michela Quattrociocche, Luca Angeletti, Francesca Antonelli, Francesco Apolloni</cast>
 		<genere>Sentimentale</genere>
 		<uscita>2010</uscita>
-		<descrizione>Sequel della storia targata Moccia Scusa ma ti chiamo amore. Dopo tre anni, Alex capisce che nonostante la differenza di età, Niki è la donna che vuole sposare. Ritroviamo i loro amici di sempre, ognuno con le proprie storie, ognuno con le proprie attività, ognuno a confronto con la propria crescita, i propri sogni e progetti per il futuro.</descrizione>
+		<descrizione>Sequel della storia targata Moccia Scusa ma ti chiamo amore. Dopo tre anni, Alex capisce che nonostante la differenza di et&agrave;, Niki &egrave; la donna che vuole sposare. Ritroviamo i loro amici di sempre, ognuno con le proprie storie, ognuno con le proprie attivit&agrave;...</descrizione>
     	<image>http://www.mymovies.it/filmclub/2008/11/114/locandina.jpg</image>
 		<data>
 			<anno>2010</anno>
 			<mese>03</mese>
 			<giorno>28</giorno>
 		</data>
-		<id>03</id>
-		<link></link>
+		<link>http://www.mymovies.it/film/2010/scusamativogliosposare/</link>
+		<disp>05</disp>
+		<noleggi>20</noleggi>
 	</film>
 	
-	<film>
+	<film id="04">
 		<titolo>Scontro tra Titani</titolo>
     	<regista>Louis Leterrier</regista>
     	<cast>Sam Worthington, Liam Neeson, Ralph Fiennes, Gemma Arterton, Mads Mikkelsen</cast>
 		<genere>Avventura</genere>
 		<uscita>2010</uscita>
-		<descrizione>La battaglia finale per il potere ha messo gli uomini contro i re e i re contro gli dei, ma la guerra tra gli dei stessi potrebbe distruggere il mondo. Nato da un dio ma cresciuto come un uomo, Perseo è inerme nel salvare la sua famiglia da Hades, il vendicativo dio infernale. Con ormai niente da perdere Perseo si propone di condurre una pericolosa missione per sconfiggere Hades prima che si impadronisca del potere di Zeus e porti l'inferno sulla Terra. Guidando un gruppo di audaci guerrieri, Perseo partirà per un viaggio pericoloso nei mondi proibiti. Combattendo diabolici demoni e spaventose bestie, potrà sopravvivere solo se accetterà i suoi poteri come dio, sconfiggerà il suo fato e creerà il proprio destino.</descrizione>
+		<descrizione>La battaglia finale per il potere ha messo gli uomini contro i re e i re contro gli dei, ma la guerra tra gli dei stessi potrebbe distruggere il mondo. Nato da un dio ma cresciuto come un uomo, Perseo &egrave; inerme nel salvare la sua famiglia da Hades...</descrizione>
     	<image>http://www.mymovies.it/filmclub/2009/04/066/locandina.jpg</image>
 		<data>
 			<anno>--</anno>
 			<mese>--</mese>
 			<giorno>--</giorno>
 		</data>
-		<id>04</id>
-		<link></link>
+		<link>http://www.mymovies.it/film/2010/scontrotratitani/</link>
+		<disp>--</disp>
+		<noleggi>--</noleggi>
 	</film>
 	
-	<film>
+	<film id="05">
 		<titolo>Iron Man 2</titolo>
     	<regista>Jon Favreau</regista>
     	<cast>Robert Downey Jr., Gwyneth Paltrow, Don Cheadle, Scarlett Johansson, Sam Rockwell</cast>
 		<genere>Azione</genere>
 		<uscita>2010</uscita>
-		<descrizione>In "Iron Man 2," il mondo è consapevole che il miliardario inventore Tony Stark (Robert Downey Jr.) è il corazzato supereroe Iron Man. Sotto pressione da parte del governo, la stampa e il pubblico per condividere la sua tecnologia con i militari, Tony non è disposta a divulgare i segreti dietro l'armatura di Iron Man, perché teme che le informazioni scivolino nelle mani sbagliate. Con Pepper Potts (Gwyneth Paltrow) e James "Rhodey" Rhodes (Don Cheadle), al suo fianco, Tony crea nuove alleanze e affronta nuove e potenti forze.</descrizione>
+		<descrizione>In "Iron Man 2," il mondo &egrave; consapevole che il miliardario inventore Tony Stark (Robert Downey Jr.) &egrave; il corazzato supereroe Iron Man. Sotto pressione da parte del governo, la stampa e il pubblico per condividere la sua...</descrizione>
     	<image>http://www.mymovies.it/filmclub/2008/12/128/locandina.jpg</image>
 		<data>
 			<anno>--</anno>
 			<mese>--</mese>
 			<giorno>--</giorno>
 		</data>
-		<id>05</id>
-		<link></link>
+		<link>http://www.mymovies.it/film/2010/ironman2/</link>
+		<disp>--</disp>
+		<noleggi>--</noleggi>
 	</film>
 	
-	<film>
+	<film id="06">
 		<titolo>Wolfman</titolo>
     	<regista>Joe Johnston</regista>
     	<cast>Benicio Del Toro, Anthony Hopkins, Emily Blunt, Hugo Weaving, Art Malik</cast>
 		<genere>Horror</genere>
 		<uscita>2010</uscita>
-		<descrizione>L'infanzia di Talbot è finita la morte in cui la madre è morta. Dopo aver lasciato il paesino addormentato Vittoriano di Blackmoor, ha passato decenni per riprendersi e cercare di dimenticare. Ma quando la fidanzata di suo fratello, Gwen Conliffe, lo rintraccia per chiedergli aiuto per cercare il suo perduto amore, Talbot ritorna a casa e si unisce alla ricerca. Scoprirà che qualcosa dotato di una forza bruta e di un'insaziabile sete di sangue sta uccidendo i paesani e che un sospettoso ispettore di Scotland Yard chiamato Aberline è venuto ad investigare.</descrizione>
+		<descrizione>L'infanzia di Talbot &egrave; finita la morte in cui la madre &egrave; morta. Dopo aver lasciato il paesino addormentato Vittoriano di Blackmoor, ha passato decenni per riprendersi e cercare di dimenticare. Ma quando la fidanzata di suo fratello, Gwen Conliffe...</descrizione>
     	<image>http://www.mymovies.it/filmclub/2008/03/077/locandina.jpg</image>
 		<data>
 			<anno>--</anno>
 			<mese>--</mese>
 			<giorno>--</giorno>
 		</data>
-		<id>06</id>
-		<link></link>
+		<link>http://www.mymovies.it/film/2010/thewolfman/</link>
+		<disp>--</disp>
+		<noleggi>--</noleggi>
 	</film>
 	
-	<film>
+	<film id="07">
 		<titolo>Shutter Island</titolo>
     	<regista>Martin Scorsese</regista>
     	<cast>Leonardo DiCaprio, Mark Ruffalo, Ben Kingsley, Michelle Williams, Patricia Clarkson</cast>
 		<genere>Drammatico</genere>
 		<uscita>2010</uscita>
-		<descrizione>Niente è quello che sembra all'Ashecliffe Hospital. E nemmeno lo è Teddy Daniels. È lì per trovare un paziente che manca? O è stato mandato per investigare sui rumor riguardanti gli approcci radicali verso la psichiatria attuati all'Ashecliffe? Più Teddy e Chuck si avvicinano alla verità, più questa diventa incerta e più cominciano a credere che forse non lasceranno mai più Shutter Island. Perché qualcuno sta cercando di farli impazzire…</descrizione>
+		<descrizione>Niente &egrave; quello che sembra all'Ashecliffe Hospital. E nemmeno lo &egrave; Teddy Daniels. E' l&igrave; per trovare un paziente che manca? O &egrave; stato mandato per investigare sui rumor riguardanti gli approcci radicali verso la psichiatria attuati...</descrizione>
     	<image>http://www.mymovies.it/filmclub/2009/03/099/locandina.jpg</image>
 		<data>
 			<anno>2010</anno>
 			<mese>05</mese>
 			<giorno>18</giorno>
 		</data>
-		<id>07</id>
-		<link></link>
+		<link>http://www.mymovies.it/film/2010/shutterisland/</link>
+		<disp>02</disp>
+		<noleggi>06</noleggi>
 	</film>
 	
-	<film>
+	<film id="08">
 		<titolo>Baciami ancora</titolo>
     	<regista>Gabriele Muccino</regista>
     	<cast>Stefano Accorsi, Vittoria Puccini, Pierfrancesco Favino, Claudio Santamaria, Giorgio Pasotti</cast>
 		<genere>Drammatico</genere>
 		<uscita>2010</uscita>
-		<descrizione>Uno sguardo, dieci anni dopo, alle vite di Carlo e Giulia, protagonisti de L'ultimo bacio. La storia si svolge a Roma, dieci anni dopo il primo episodio, e narra l'evoluzione della storia d'amore dei due protagonisti, le loro vite e quelle dei loro amici di sempre: Paolo, Adriano e Alberto, partiti per un goliardico viaggio alla fine del primo film che si rivelerà formativo, e Marco felicemente sposato con Veronica.</descrizione>
+		<descrizione>Uno sguardo, dieci anni dopo, alle vite di Carlo e Giulia, protagonisti de L'ultimo bacio. La storia si svolge a Roma, dieci anni dopo il primo episodio, e narra l'evoluzione della storia d'amore dei due protagonisti, le loro vite e quelle dei loro amici di...</descrizione>
     	<image>http://www.mymovies.it/filmclub/2009/06/055/locandina.jpg</image>
 		<data>
 			<anno>2010</anno>
 			<mese>04</mese>
 			<giorno>30</giorno>
 		</data>
-		<id>08</id>
-		<link></link>
+		<link>http://www.mymovies.it/film/2010/baciamiancora/</link>
+		<disp>01</disp>
+		<noleggi>18</noleggi>
 	</film>
 	
-	<film>
+	<film id="09">
 		<titolo>Avatar</titolo>
     	<regista>James Cameron</regista>
     	<cast>Sam Worthington, Zoe Saldana, Sigourney Weaver, Stephen Lang, Michelle Rodriguez</cast>
 		<genere>Fantascienza</genere>
 		<uscita>2009</uscita>
-		<descrizione>Avatar ci porta in un mondo nuovo e spettacolare al di là di ogni immaginazione, dove un eroe ribelle si imbarca in un’avventura epica, che alla fine lo vedrà combattere per salvare il mondo alieno che ha imparato a chiamare casa. Il film era stato concepito da James Cameron, il regista Premio Oscar per “Titanic”, 15 anni fa, quando non esistevano ancora gli strumenti necessari per dare vita alla sua visione. Ora, dopo 4 anni di lavorazione, AVATAR , un film live action con una nuova generazione di effetti speciali, offre un’esperienza cinematografica a 360 gradi, assolutamente innovativa, dove la tecnologia rivoluzionaria creata per la realizzazione del film si fonde completamente con l’emozione pura dei personaggi, penetrando nel flusso della storia.</descrizione>
+		<descrizione>Avatar ci porta in un mondo nuovo e spettacolare al di l&agrave; di ogni immaginazione, dove un eroe ribelle si imbarca in un’avventura epica, che alla fine lo vedr&agrave; combattere per salvare il mondo alieno che ha imparato a chiamare casa. Il film era...</descrizione>
     	<image>http://www.mymovies.it/filmclub/2008/03/090/locandina.jpg</image>
 		<data>
 			<anno>2010</anno>
 			<mese>04</mese>
 			<giorno>02</giorno>
 		</data>
-		<id>09</id>
-		<link></link>
+		<link>http://www.mymovies.it/film/2009/avatar/</link>
+		<disp>0</disp>
+		<noleggi>37</noleggi>
 	</film>
 	
-	<film>
+	<film id="10">
 		<titolo>Harry Potter e il principe mezzosangue</titolo>
     	<regista>David Yates</regista>
     	<cast>Daniel Radcliffe, Emma Watson, Rupert Grint, Michael Gambon, Alan Rickman</cast>
 		<genere>Fantastico</genere>
 		<uscita>2009</uscita>
-		<descrizione>Voldemort allunga la sua ombra minacciosa sia sul mondo dei Babbani che su quello dei maghi e Hogwarts non è più un posto sicuro e accogliente come in passato. Harry sospetta che i pericoli minacciano anche la scuola, ma Silente concentra la sua attenzione nel prepararlo alla battaglia finale che sa essere inevitabile. I due insieme cercano di penetrare nelle difese di Voldemort e quindi Silente chiama il vecchio amico e collega Horace Lumacorno, le cui competenze considera fondamentali.
-Nel frattempo gli studenti subiscono gli attacchi di un avversario molto particolare, quello degli ormoni adolescenziali. Harry è sempre più attratto da Ginny, così come Dean Thomas. Mentre Lavander Brown ha deciso che Ron è il tipo giusto per lei, Hermione soffre di gelosia, ma fa di tutto per non farlo vedere. Ma uno studente rimane in disparte, deciso a lasciare il suo segno, anche se cupo. L'amore è nell'aria, ma la tragedia è imminente e forse Hogwarts non sarà più la stessa.</descrizione>
+		<descrizione>Voldemort allunga la sua ombra minacciosa sia sul mondo dei Babbani che su quello dei maghi e Hogwarts non &egrave; pi&ugrave; un posto sicuro e accogliente come in passato. Harry sospetta che i pericoli minacciano anche la scuola, ma Silente concentra la sua...</descrizione>
     	<image>http://www.mymovies.it/filmclub/2007/02/129/locandina.jpg</image>
 		<data>
 			<anno>2010</anno>
 			<mese>02</mese>
 			<giorno>02</giorno>
 		</data>
-		<id>10</id>
-		<link></link>
+		<link>http://www.mymovies.it/film/2009/harrypotter6/</link>
+		<disp>02</disp>
+		<noleggi>12</noleggi>
 	</film>
 	
-	<film>
+	<film id="11">
 		<titolo>Angeli e Demoni</titolo>
     	<regista>Ron Howard</regista>
     	<cast>Tom Hanks, Ewan McGregor, Ayelet Zurer, Stellan Skarsgård, Pierfrancesco Favino</cast>
 		<genere>Thriller</genere>
 		<uscita>2009</uscita>
-		<descrizione>Langdon scopre le prove della rinascita di unantica confraternita segreta conosciuta come gli Illuminati, la più potente organizzazione sotto copertura della Storia, e deve anche fronteggiare un pericolo mortale per la sopravvivenza del nemico più disprezzato da questa confraternita: la Chiesa cattolica. Quando Langdon apprende che manca poco all'esplosione di una bomba piazzata in Vaticano dagli Illuminati, arriva in aereo a Roma, dove si allea con Vittoria Vetra, una bellissima ed enigmatica scienziata italiana. Imbarcandosi in una caccia senza soste e piena d’azione attraverso cripte sigillate, catacombe pericolose, cattedrali abbandonate e anche nel cuore della tomba più riservata sulla faccia della Terra, Langdon e Vetra seguono una scia di indizi risalenti a quattrocento anni prima, composti da simboli antichi, che rappresentano l'unica speranza di sopravvivenza per il Vaticano.</descrizione>
+		<descrizione>Langdon scopre le prove della rinascita di unantica confraternita segreta conosciuta come gli Illuminati, la pi&ugrave; potente organizzazione sotto copertura della Storia, e deve anche fronteggiare un pericolo mortale per la sopravvivenza del nemico pi&ugrave;...</descrizione>
     	<image>http://www.mymovies.it/filmclub/2008/10/022/locandina.jpg</image>
 		<data>
 			<anno>2009</anno>
 			<mese>11</mese>
 			<giorno>09</giorno>
 		</data>
-		<id>11</id>
-		<link></link>
+		<link>http://www.mymovies.it/dizionario/recensione.asp?id=46904</link>
+		<disp>04</disp>
+		<noleggi>16</noleggi>
 	</film>
 	
-	<film>
+	<film id="12">
 		<titolo>L'era glaciale 3 - L'alba dei dinosauri</titolo>
     	<regista>Carlos Saldanha</regista>
     	<cast>Ray Romano, John Leguizamo, Denis Leary, Simon Pegg, Queen Latifah</cast>
 		<genere>Animazione</genere>
 		<uscita>2009</uscita>
-		<descrizione>Dopo gli eventi del secondo film, la vita comincia a cambiare per Manny e i suoi amici: Scrat è ancora alla caccia della sua amata ghianda, ma trova una possibile storia d'amore con la scoiattola Scratte. Manny e Ellie sono diventati una coppia e stanno aspettando un cucciolo, che rende Manny ansioso sul fatto che tutto sia perfetto per quando il piccolo arriverà. Diego è stufo di essere trattato come un gatto domestico e si domanda se sta diventando troppo rilassato. Sid comincia a volere una sua famiglia e ruba un uovo di dinosauro che lo porta a scoprire un mondo sotterraneo dove i suoi compagni devono salvarlo, evitando dinosauri e pericoli a destra e a manca e incontrando una donnola con un solo occhio, Buck, che caccia i dinosauri.</descrizione>
+		<descrizione>Dopo gli eventi del secondo film, la vita comincia a cambiare per Manny e i suoi amici: Scrat &egrave; ancora alla caccia della sua amata ghianda, ma trova una possibile storia d'amore con la scoiattola Scratte. Manny e Ellie sono diventati una coppia e stanno...</descrizione>
     	<image>http://www.mymovies.it/filmclub/2008/03/061/locandina.jpg</image>
 		<data>
 			<anno>2009</anno>
 			<mese>12</mese>
 			<giorno>15</giorno>
 		</data>
-		<id>12</id>
-		<link></link>
+		<link>http://www.mymovies.it/film/2009/eraglaciale3/</link>
+		<disp>05</disp>
+		<noleggi>23</noleggi>
 	</film>
 	
-<!--<film>
+	<film id="13">
+		<titolo>Transformers - La vendetta del caduto</titolo>
+    	<regista>Michael Bay</regista>
+    	<cast>Megan Fox, Shia LaBeouf, Hugo Weaving, Rainn Wilson, Josh Duhamel</cast>
+		<genere>Azione</genere>
+		<uscita>2009</uscita>
+		<descrizione>Se la battaglia per la Terra &egrave; appena terminata, quella dell'universo sta per cominciare. Cosa accadr&agrave;? Gli Autobots superstiti decidono di restare sulla Terra come guardiani dell'umanit&agrave;, fondando una piccola base Autobots. Starscream &egrave;...</descrizione>
+    	<image>http://www.mymovies.it/filmclub/2008/12/010/locandina.jpg</image>
+		<data>
+			<anno>2009</anno>
+			<mese>09</mese>
+			<giorno>09</giorno>
+		</data>
+		<link>http://www.mymovies.it/film/2009/transformerslavendettadelcaduto/</link>
+		<disp>02</disp>
+		<noleggi>07</noleggi>
+	</film>
+	
+	<film id="14">
+		<titolo>Parnassus - L'uomo che voleva ingannare il diavolo</titolo>
+    	<regista>Terry Gilliam</regista>
+    	<cast>Heath Ledger, Johnny Depp, Colin Farrell, Jude Law, Christopher Plummer</cast>
+		<genere>Fantastico</genere>
+		<uscita>2009</uscita>
+		<descrizione>Il Dottor Parnassus gira per le strade con il suo carrozzone dalle qualit&agrave; particolari. In compagnia di un giovane, una fanciulla (sua figlia Valentina) e un nano mette in scena ovunque uno spettacolo che ha al suo centro uno specchio. Chi lo oltrepassa si...</descrizione>
+    	<image>http://www.mymovies.it/filmclub/2008/05/095/locandina.jpg</image>
+		<data>
+			<anno>2009</anno>
+			<mese>11</mese>
+			<giorno>29</giorno>
+		</data>
+		<link>http://www.mymovies.it/film/2009/parnassus/</link>
+		<disp>0</disp>
+		<noleggi>16</noleg1gi>
+	</film>
+	
+	<film id="15">
+		<titolo>2012</titolo>
+    	<regista>Roland Emmerich</regista>
+    	<cast>John Cusack, Chiwetel Ejiofor, Amanda Peet, Oliver Platt, Thandie Newton</cast>
+		<genere>Catastrofico</genere>
+		<uscita>2009</uscita>
+		<descrizione>Nel 2009, in un centro di ricerca indiano situato nelle profondit&agrave; di una miniera di rame, viene rilevata un'improvvisa variazione dell'emissione dei neutrini solari e il conseguente surriscaldamento del nucleo terrestre. La scoperta viene studiata dal...</descrizione>
+    	<image>http://www.mymovies.it/filmclub/2008/11/079/locandina.jpg</image>
+		<data>
+			<anno>2009</anno>
+			<mese>10</mese>
+			<giorno>18</giorno>
+		</data>
+		<link>http://www.mymovies.it/film/2009/2012/</link>
+		<disp>01</disp>
+		<noleggi>08</noleggi>
+	</film>
+	
+	<film id="16">
+		<titolo>Up</titolo>
+    	<regista>Pete Docter, Bob Peterson</regista>
+    	<cast>Edward Asner, Christopher Plummer, Jordan Nagai, Bob Peterson, Delroy Lindo</cast>
+		<genere>Animazione</genere>
+		<uscita>2009</uscita>
+		<descrizione>In una sala cinematografica si proietta un cinegiornale su un esploratore, Charles Muntz, che &egrave; tornato dall'America del Sud con lo scheletro di un uccello che la scienza ufficiale qualifica come falso. Muntz riparte per dimostrare la sua onest&agrave;...</descrizione>
+    	<image>http://www.mymovies.it/filmclub/2008/07/070/locandina.jpg</image>
+		<data>
+			<anno>2009</anno>
+			<mese>12</mese>
+			<giorno>02</giorno>
+		</data>
+		<link>http://www.mymovies.it/film/2009/up/</link>
+		<disp>0</disp>
+		<noleggi>28</noleggi>
+	</film>
+	
+	<film id="17">
+		<titolo>Sherlock Holmes</titolo>
+    	<regista>Guy Ritchie</regista>
+    	<cast>Robert Downey Jr., Jude Law, Rachel McAdams, Mark Strong, Kelly Reilly</cast>
+		<genere>Azione</genere>
+		<uscita>2009</uscita>
+		<descrizione>Il celebre investigatore creato da Conan Doyle perde molti degli aspetti pi&ugrave; vittoriani e diventa pi&ugrave; avventuroso, utilizzando anche le sue abilit&agrave; di spadaccino e boxer per risolvere i crimini a cui indaga.</descrizione>
+    	<image>http://www.mymovies.it/filmclub/2009/04/006/locandina.jpg</image>
+		<data>
+			<anno>2009</anno>
+			<mese>11</mese>
+			<giorno>30</giorno>
+		</data>
+		<link>http://www.mymovies.it/film/2009/sherlockholmes/</link>
+		<disp>02</disp>
+		<noleggi>14</noleggi>
+	</film>
+	
+	<film id="18">
+		<titolo>Il cavaliere oscuro</titolo>
+    	<regista>Christopher Nolan</regista>
+    	<cast>Christian Bale, Heath Ledger, Gary Oldman, Michael Caine, Aaron Eckhart</cast>
+		<genere>Azione</genere>
+		<uscita>2008</uscita>
+		<descrizione>Il crimine organizzato a Gotham City ha le ore contate. Batman, il tenente Gordon, il nuovo Procuratore Distrettuale e alcuni improbabili epigoni dell'Uomo Pipistrello in imbottiture da hockey hanno dichiarato guerra ai criminali. La loro fortuna e i loro dollari...</descrizione>
+    	<image>http://www.mymovies.it/filmclub/2007/02/131/locandina.jpg</image>
+		<data>
+			<anno>2009</anno>
+			<mese>06</mese>
+			<giorno>12</giorno>
+		</data>
+		<link>http://www.mymovies.it/dizionario/recensione.asp?id=44594</link>
+		<disp>03</disp>
+		<noleggi>15</noleggi>
+	</film>
+	
+	<film id="19">
 		<titolo></titolo>
     	<regista></regista>
     	<cast></cast>
@@ -237,15 +335,16 @@ Nel frattempo gli studenti subiscono gli attacchi di un avversario molto partico
 		<descrizione></descrizione>
     	<image></image>
 		<data>
-			<giorno></giorno>
+			<anno>2009</anno>
 			<mese></mese>
-			<anno></anno>
+			<giorno></giorno>
 		</data>
-		<id>12</id>
 		<link></link>
+		<disp></disp>
+		<noleggi></noleggi>
 	</film>
 	
-	<film>
+	<film id="20">
 		<titolo></titolo>
     	<regista></regista>
     	<cast></cast>
@@ -254,15 +353,16 @@ Nel frattempo gli studenti subiscono gli attacchi di un avversario molto partico
 		<descrizione></descrizione>
     	<image></image>
 		<data>
-			<giorno></giorno>
+			<anno>2009</anno>
 			<mese></mese>
-			<anno></anno>
+			<giorno></giorno>
 		</data>
-		<id>13</id>
 		<link></link>
+		<disp></disp>
+		<noleggi></noleggi>
 	</film>
 	
-	<film>
+	<film id="21">
 		<titolo></titolo>
     	<regista></regista>
     	<cast></cast>
@@ -271,15 +371,16 @@ Nel frattempo gli studenti subiscono gli attacchi di un avversario molto partico
 		<descrizione></descrizione>
     	<image></image>
 		<data>
-			<giorno></giorno>
+			<anno>2009</anno>
 			<mese></mese>
-			<anno></anno>
+			<giorno></giorno>
 		</data>
-		<id>14</id>
 		<link></link>
+		<disp></disp>
+		<noleggi></noleggi>
 	</film>
 	
-	<film>
+	<film id="22">
 		<titolo></titolo>
     	<regista></regista>
     	<cast></cast>
@@ -288,114 +389,13 @@ Nel frattempo gli studenti subiscono gli attacchi di un avversario molto partico
 		<descrizione></descrizione>
     	<image></image>
 		<data>
-			<giorno></giorno>
+			<anno>2009</anno>
 			<mese></mese>
-			<anno></anno>
+			<giorno></giorno>
 		</data>
-		<id>15</id>
 		<link></link>
+		<disp></disp>
+		<noleggi></noleggi>
 	</film>
-	
-	<film>
-		<titolo></titolo>
-    	<regista></regista>
-    	<cast></cast>
-		<genere></genere>
-		<uscita></uscita>
-		<descrizione></descrizione>
-    	<image></image>
-		<data>
-			<giorno></giorno>
-			<mese></mese>
-			<anno></anno>
-		</data>
-		<id>16</id>
-		<link></link>
-	</film>
-	
-	<film>
-		<titolo></titolo>
-    	<regista></regista>
-    	<cast></cast>
-		<genere></genere>
-		<uscita></uscita>
-		<descrizione></descrizione>
-    	<image></image>
-		<data>
-			<giorno></giorno>
-			<mese></mese>
-			<anno></anno>
-		</data>
-		<id>17</id>
-		<link></link>
-	</film>
-	
-	<film>
-		<titolo></titolo>
-    	<regista></regista>
-    	<cast></cast>
-		<genere></genere>
-		<uscita></uscita>
-		<descrizione></descrizione>
-    	<image></image>
-		<data>
-			<giorno></giorno>
-			<mese></mese>
-			<anno></anno>
-		</data>
-		<id>18</id>
-		<link></link>
-	</film>
-	
-	<film>
-		<titolo></titolo>
-    	<regista></regista>
-    	<cast></cast>
-		<genere></genere>
-		<uscita></uscita>
-		<descrizione></descrizione>
-    	<image></image>
-		<data>
-			<giorno></giorno>
-			<mese></mese>
-			<anno></anno>
-		</data>
-		<id>19</id>
-		<link></link>
-	</film>
-	
-	<film>
-		<titolo></titolo>
-    	<regista></regista>
-    	<cast></cast>
-		<genere></genere>
-		<uscita></uscita>
-		<descrizione></descrizione>
-    	<image></image>
-		<data>
-			<giorno></giorno>
-			<mese></mese>
-			<anno></anno>
-		</data>
-		<id>20</id>
-		<link></link>
-	</film>
-	
-	<film>
-		<titolo></titolo>
-    	<regista></regista>
-    	<cast></cast>
-		<genere></genere>
-		<uscita></uscita>
-		<descrizione></descrizione>
-    	<image></image>
-		<data>
-			<giorno></giorno>
-			<mese></mese>
-			<anno></anno>
-		</data>
-		<id>21</id>
-		<link></link>
-	</film> -->
 
 </lista>
