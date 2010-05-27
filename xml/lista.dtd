@@ -1,0 +1,17 @@
+<!ELEMENT lista (film+)>
+	<!ELEMENT film (titolo,regista,cast,genere,uscita,descrizione,image,data,link,disp,noleggi)>
+		<!ELEMENT titolo (#PCDATA)>
+		<!ELEMENT regista (#PCDATA)>
+		<!ELEMENT cast (#PCDATA)>
+		<!ELEMENT genere (#PCDATA)>
+		<!ELEMENT uscita (#PCDATA)>
+		<!ELEMENT descrizione (#PCDATA)>
+		<!ELEMENT image (#PCDATA)>
+		<!ELEMENT data (anno,mese,giorno)>
+			<!ELEMENT anno (#PCDATA)>
+			<!ELEMENT mese (#PCDATA)>
+			<!ELEMENT giorno (#PCDATA)>
+		<!ELEMENT link (#PCDATA)>
+		<!ELEMENT disp (#PCDATA)>
+		<!ELEMENT noleggi (#PCDATA)>
+	<!ATTLIST film id ID #REQUIRED>
