@@ -136,7 +136,7 @@ p.intro {
 
 .boxFilmL {
 	float: left;
-	width: 90%;
+	width: 100%;
 	border: dotted 1px #ffffff;
 	padding: 0.2em;
 	clear: both;
@@ -144,7 +144,7 @@ p.intro {
 
 .boxFilmR {
 	float: left;
-	width: 90%;
+	width: 100%;
 	border: dotted 1px #ffffff;
 	padding: 0.2em;
 	clear: both;
