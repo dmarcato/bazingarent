@@ -1,0 +1,195 @@
+body {
+	background-color: #a4c0ff;
+	color: #000000;
+	margin: 0;
+	padding: 0;
+	font-size: 0.8em;
+	font-family: Lucida, Verdana, Arial;
+}
+
+a,a:link {
+	color: #000000;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #000000;
+	text-decoration: underline;
+	font-style: italic;
+}
+
+a:hover {
+	color: #000000;
+	background-color: #fff;
+	text-decoration: none;
+}
+
+#header {
+	width: 100%;
+	height: 84px;
+	clear: both;
+	background-image: url("../images/headermobile.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#path {
+	width: 100%;
+	clear: both;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	text-align: center;
+}
+
+#navigazione {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 1.3em;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+#navigazione li {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0.5em;
+}
+
+#navigazione li.current, #navigazione li:hover {
+	background-color: #fff;
+}
+
+#navigazione a, #navigazione a:link, #navigazione a:visited, #navigazione a:hover {
+	color: #110e86;
+}
+
+#content {
+	background-color: #ddddff;
+	margin: auto;
+	width: 80%;
+	padding: 1em;
+	border-bottom: 1px solid #fff;
+	border-right: 1px solid #fff;
+	border-left: 1px solid #fff;
+}
+
+h1 {
+	color: #110e86;
+	font-size: 1.9em;
+	margin: 0.3em;
+}
+
+#footer {
+	text-align: center;
+	font-size: 0.7em;
+	padding: 5px 0px 5px 0px;
+	clear: both;
+	width: 100%;
+}
+
+p.intro {
+	text-align: center;
+	width: 100%;
+	padding: 0.3em;
+	border: 1px solid #fff;
+	background-color: #a4c0ee;
+}
+
+#descrizioneMappaTop {
+	width: 70%;
+	padding: 0.3em;
+	border: 1px solid #fff;
+	background-color: #a4c0ee;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 8px;
+}
+
+#mappa {
+	text-align: center;
+	clear: both;
+}
+
+#descrizioneMappaBottom {
+	width: 70%;
+	padding: 0.3em;
+	border: 1px solid #fff;
+	background-color: #a4c0ee;
+	text-align: center;
+	margin: auto;
+	margin-top: 5px;
+}
+
+.boxFilmL img {
+	float: left;
+	width: 150px;
+	height: 213px;
+	margin-right: 5px;
+}
+
+.contBox {
+	width: 100%;
+	clear: both;
+	display: inline-block;
+}
+
+.boxFilmL {
+	float: left;
+	width: 90%;
+	border: dotted 1px #ffffff;
+	padding: 0.2em;
+	clear: both;
+}
+
+.boxFilmR {
+	float: left;
+	width: 90%;
+	border: dotted 1px #ffffff;
+	padding: 0.2em;
+	clear: both;
+}
+
+.boxFilmR img {
+	float: left;
+	width: 150px;
+	height: 213px;
+	margin-right: 5px;
+}
+
+.boxFilmL .titolo {
+	font-weight: bold;
+}
+
+.boxFilmR .titolo {
+	font-weight: bold;
+}
+
+.boxFilmL .info {
+	font-size: 0.8em;
+}
+
+.boxFilmR .info {
+	font-size: 0.8em;
+}
+
+.boxFilmL .more {
+	float: right;
+}
+
+.boxFilmR .more {
+	float: right;
+}
+
+.descr {
+	height: 130px;
+}
+
+#cerca {
+	float: right;
+	width: 35%;
+}
+
+#txtCerca {
+	width: 200px;
+}
