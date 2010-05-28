@@ -327,75 +327,75 @@
 	</film>
 	
 	<film id="19">
-		<titolo></titolo>
-    	<regista></regista>
-    	<cast></cast>
-		<genere></genere>
-		<uscita></uscita>
-		<descrizione></descrizione>
-    	<image></image>
+		<titolo>Gomorra</titolo>
+    	<regista>Matteo Garrone</regista>
+    	<cast>Toni Servillo, Gianfelice Imparato, Maria Nazionale, Salvatore Cantalupo, Gigio Morra</cast>
+		<genere>Drammatico</genere>
+		<uscita>2008</uscita>
+		<descrizione>Tratto dall'omonimo bestseller di Roberto Saviano, il film &egrave; un ritratto della camorra e della criminalit&agrave; contemporanea nella citt&agrave; di Napoli. Un viaggio nel mondo affaristico e criminale della camorra che si apre e si chiude nel segno delle merci, del loro ciclo di vita.</descrizione>
+    	<image>http://www.mymovies.it/filmclub/2008/04/071/locandina.jpg</image>
 		<data>
 			<anno>2009</anno>
-			<mese></mese>
-			<giorno></giorno>
+			<mese>07</mese>
+			<giorno>11</giorno>
 		</data>
-		<link></link>
-		<disp></disp>
-		<noleggi></noleggi>
+		<link>http://www.mymovies.it/dizionario/recensione.asp?id=46991</link>
+		<disp>01</disp>
+		<noleggi>06</noleggi>
 	</film>
 	
 	<film id="20">
-		<titolo></titolo>
-    	<regista></regista>
-    	<cast></cast>
-		<genere></genere>
-		<uscita></uscita>
-		<descrizione></descrizione>
-    	<image></image>
+		<titolo>Twilight</titolo>
+    	<regista>Catherine Hardwicke</regista>
+    	<cast>Kristen Stewart, Robert Pattinson, Taylor Lautner, Billy Burke, Peter Facinelli</cast>
+		<genere>Fantastico</genere>
+		<uscita>2008</uscita>
+		<descrizione>Quando sua madre si risposa Bella Swan decide di andare a vivere col padre nella piccola e piovosa citt&agrave; di Forks. Qui incontra il misterioso Edward Cullen, che nasconde un segreto conosciuto solo dai membri della propria famiglia. Ma Edward e Bella si innamorano e questo mette...</descrizione>
+    	<image>http://www.mymovies.it/filmclub/2008/06/052/locandina.jpg</image>
 		<data>
 			<anno>2009</anno>
-			<mese></mese>
-			<giorno></giorno>
+			<mese>09</mese>
+			<giorno>24</giorno>
 		</data>
-		<link></link>
-		<disp></disp>
-		<noleggi></noleggi>
+		<link>http://www.mymovies.it/dizionario/recensione.asp?id=56633</link>
+		<disp>0</disp>
+		<noleggi>15</noleggi>
 	</film>
 	
 	<film id="21">
-		<titolo></titolo>
-    	<regista></regista>
-    	<cast></cast>
-		<genere></genere>
-		<uscita></uscita>
-		<descrizione></descrizione>
-    	<image></image>
+		<titolo>Kung Fu Panda</titolo>
+    	<regista>Mark Osborne, John Stevenson</regista>
+    	<cast>Jack Black, Dustin Hoffman, Angelina Jolie, Ian McShane, Jackie Chan</cast>
+		<genere>Animazione</genere>
+		<uscita>2008</uscita>
+		<descrizione>Po &egrave; un giovane panda il cui padre (un volatile) gestisce un piccolo ristorante la cui specialit&agrave; sono i noodles cucinati secondo una ricetta segreta. Po fa il cameriere ma intanto sogna di poter essere un eroe del kung fu. Finch&egrave; un giorno, in seguito a una predizione...</descrizione>
+    	<image>http://www.mymovies.it/filmclub/2007/01/025/locandina.jpg</image>
 		<data>
 			<anno>2009</anno>
-			<mese></mese>
-			<giorno></giorno>
+			<mese>05</mese>
+			<giorno>09</giorno>
 		</data>
-		<link></link>
-		<disp></disp>
-		<noleggi></noleggi>
+		<link>http://www.mymovies.it/dizionario/recensione.asp?id=44470</link>
+		<disp>3</disp>
+		<noleggi>21</noleggi>
 	</film>
 	
 	<film id="22">
-		<titolo></titolo>
-    	<regista></regista>
-    	<cast></cast>
-		<genere></genere>
-		<uscita></uscita>
-		<descrizione></descrizione>
-    	<image></image>
+		<titolo>Pirati dei Caraibi - Ai confini del mondo</titolo>
+    	<regista>Gore Verbinski</regista>
+    	<cast>Johnny Depp, Orlando Bloom, Keira Knightley, Geoffrey Rush, Jonathan Pryce</cast>
+		<genere>Avventura</genere>
+		<uscita>2007</uscita>
+		<descrizione>Il pirata Jack Sparrow deve sopravvivere al limbo di sabbia a cui lo ha costretto Davy Jones, padrone dell'oceano e della sua anima. Una nave carica di pirati si spinger&agrave; fino ai confini del mondo per salvare Jack Sparrow. La squadra della Perla Nera &egrave; capitanata dai consueti...</descrizione>
+    	<image>http://www.mymovies.it/filmclub/2007/01/018/locandina.jpg</image>
 		<data>
 			<anno>2009</anno>
-			<mese></mese>
-			<giorno></giorno>
+			<mese>03</mese>
+			<giorno>03</giorno>
 		</data>
-		<link></link>
-		<disp></disp>
-		<noleggi></noleggi>
+		<link>http://www.mymovies.it/dizionario/recensione.asp?id=44538</link>
+		<disp>4</disp>
+		<noleggi>27</noleggi>
 	</film>
 
 </lista>

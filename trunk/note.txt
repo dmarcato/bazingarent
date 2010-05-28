@@ -1,0 +1,2 @@
+-il cerca se si stringe troppo la finestra si sputtana (anke a 800*600 "il vai va sulla riga in basso")
+-il css x cell non funge a quanto pare
