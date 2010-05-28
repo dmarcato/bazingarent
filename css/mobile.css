@@ -97,7 +97,7 @@ p.intro {
 }
 
 #descrizioneMappaTop {
-	width: 70%;
+	width: 100%;
 	padding: 0.3em;
 	border: 1px solid #fff;
 	background-color: #a4c0ee;
@@ -107,12 +107,13 @@ p.intro {
 }
 
 #mappa {
+	width: 100%;
 	text-align: center;
 	clear: both;
 }
 
 #descrizioneMappaBottom {
-	width: 70%;
+	width: 100%;
 	padding: 0.3em;
 	border: 1px solid #fff;
 	background-color: #a4c0ee;
