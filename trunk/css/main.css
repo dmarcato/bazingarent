@@ -122,12 +122,6 @@ p.intro {
 	margin-top: 5px;
 }
 
-.boxFilmL img {
-	float: left;
-	width: 150px;
-	height: 213px;
-	margin-right: 5px;
-}
 
 .contBox {
 	width: 100%;
@@ -138,22 +132,29 @@ p.intro {
 .boxFilmL {
 	float: left;
 	width: 45%;
-	border: dotted 1px #ffffff;
-	padding: 0.2em;
+	padding: 1em;
+	margin-bottom: 0.5em;
 }
 
 .boxFilmR {
 	float: right;
 	width: 45%;
-	border: dotted 1px #ffffff;
-	padding: 0.2em;
+	padding: 1em;
+	margin-bottom: 0.5em;
+}
+
+.boxFilmL img {
+	float: left;
+	width: 30%;
+	height: 100%;
+	margin-right: 0.5em;
 }
 
 .boxFilmR img {
 	float: left;
-	width: 150px;
-	height: 213px;
-	margin-right: 5px;
+	width: 30%;
+	height: 100%;
+	margin-right: 0.5em;
 }
 
 .boxFilmL .titolo {
@@ -178,10 +179,6 @@ p.intro {
 
 .boxFilmR .more {
 	float: right;
-}
-
-.descr {
-	height: 130px;
 }
 
 #cerca {

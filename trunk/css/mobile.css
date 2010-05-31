@@ -107,7 +107,6 @@ p.intro {
 }
 
 #mappa {
-	width: 100%;
 	text-align: center;
 	clear: both;
 }
@@ -137,25 +136,32 @@ p.intro {
 
 .boxFilmL {
 	float: left;
-	width: 100%;
-	border: dotted 1px #ffffff;
-	padding: 0.2em;
+	width: 90%;
+	padding: 1em;
+	margin-bottom: 0.5em;
 	clear: both;
 }
 
 .boxFilmR {
 	float: left;
-	width: 100%;
-	border: dotted 1px #ffffff;
-	padding: 0.2em;
+	width: 90%;
+	padding: 1em;
+	margin-bottom: 0.5em;
 	clear: both;
+}
+
+.boxFilmL img {
+	float: left;
+	width: 30%;
+	height: 100%;
+	margin-right: 0.5em;
 }
 
 .boxFilmR img {
 	float: left;
-	width: 150px;
-	height: 213px;
-	margin-right: 5px;
+	width: 30%;
+	height: 100%;
+	margin-right: 0.5em;
 }
 
 .boxFilmL .titolo {
@@ -180,10 +186,6 @@ p.intro {
 
 .boxFilmR .more {
 	float: right;
-}
-
-.descr {
-	height: 130px;
 }
 
 #cerca {
