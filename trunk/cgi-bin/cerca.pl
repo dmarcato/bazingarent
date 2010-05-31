@@ -16,11 +16,12 @@ my $radice= $doc->getDocumentElement; #estrazione radice
 my $elementi = "/lista/film";
 my @film = $doc->findnodes($elementi);
 
-my $titolo = $film[0]->findnodes('./titolo');
-print $titolo;
+#my $titolo = $film[0]->findnodes('./titolo');
+#print $titolo;
 
-#my $length = @elementi;
-#
-#for(my $i=0; $i < $length;$i++) {
-#	print $elementi[$i]." ";
-#}
+my $length = @film;
+
+for(my $i=0; $i < $length;$i++) {
+	my $titolo = $film[i]->findnodes('./titolo');
+	print $titolo." ".$i." ";
+}
