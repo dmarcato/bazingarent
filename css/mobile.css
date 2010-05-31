@@ -189,10 +189,13 @@ p.intro {
 }
 
 #cerca {
-	float: right;
-	width: 35%;
+	float: left;
 }
 
 #txtCerca {
 	width: 200px;
+}
+
+#google {
+	display: none;
 }

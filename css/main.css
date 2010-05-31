@@ -184,9 +184,13 @@ p.intro {
 
 #cerca {
 	float: right;
-	width: 35%;
+	margin:1em;
 }
 
 #txtCerca {
 	width: 200px;
+}
+
+#mapPic {
+	display:none;
 }
