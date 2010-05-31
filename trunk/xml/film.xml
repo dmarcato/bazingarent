@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE lista SYSTEM "lista.dtd">
+
 <lista>
+
 	<film id="01">
 		<titolo>Prince of Persia - Le sabbie del tempo</titolo>
     	<regista>Mike Newell</regista>
@@ -25,7 +27,7 @@
     	<cast>Mia Wasikowska, Johnny Depp, Helena Bonham Carter, Crispin Glover, Anne Hathaway</cast>
 		<genere>Fantastico</genere>
 		<uscita>2010</uscita>
-		<descrizione>Alice ha diciassette anni e scappa da un party altezzoso e segue il Bianconiglio gi&ugrave; per il buco, che la riporta nuovamente al Paese delle Meraviglie. Il Bianconiglio &egrave; convinto di avere la ragazza giusta, quella che ha visitato il magico mondo...</descrizione>
+		<descrizione>Alice ha diciassette anni e scappa da un party altezzoso e segue il Bianconiglio giù per il buco, che la riporta nuovamente al Paese delle Meraviglie. Il Bianconiglio è convinto di avere la ragazza giusta, quella che ha visitato il magico mondo...</descrizione>
     	<image>http://www.mymovies.it/filmclub/2008/06/094/locandina.jpg</image>
 		<data>
 			<anno>2010</anno>
@@ -43,7 +45,7 @@
     	<cast>Raoul Bova, Michela Quattrociocche, Luca Angeletti, Francesca Antonelli, Francesco Apolloni</cast>
 		<genere>Sentimentale</genere>
 		<uscita>2010</uscita>
-		<descrizione>Sequel della storia targata Moccia Scusa ma ti chiamo amore. Dopo tre anni, Alex capisce che nonostante la differenza di et&agrave;, Niki &egrave; la donna che vuole sposare. Ritroviamo i loro amici di sempre, ognuno con le proprie storie, ognuno con le proprie attivit&agrave;...</descrizione>
+		<descrizione>Sequel della storia targata Moccia Scusa ma ti chiamo amore. Dopo tre anni, Alex capisce che nonostante la differenza di età, Niki è la donna che vuole sposare. Ritroviamo i loro amici di sempre, ognuno con le proprie storie, ognuno con le proprie attività...</descrizione>
     	<image>http://www.mymovies.it/filmclub/2008/11/114/locandina.jpg</image>
 		<data>
 			<anno>2010</anno>
@@ -61,7 +63,7 @@
     	<cast>Sam Worthington, Liam Neeson, Ralph Fiennes, Gemma Arterton, Mads Mikkelsen</cast>
 		<genere>Avventura</genere>
 		<uscita>2010</uscita>
-		<descrizione>La battaglia finale per il potere ha messo gli uomini contro i re e i re contro gli dei, ma la guerra tra gli dei stessi potrebbe distruggere il mondo. Nato da un dio ma cresciuto come un uomo, Perseo &egrave; inerme nel salvare la sua famiglia da Hades...</descrizione>
+		<descrizione>La battaglia finale per il potere ha messo gli uomini contro i re e i re contro gli dei, ma la guerra tra gli dei stessi potrebbe distruggere il mondo. Nato da un dio ma cresciuto come un uomo, Perseo è inerme nel salvare la sua famiglia da Hades...</descrizione>
     	<image>http://www.mymovies.it/filmclub/2009/04/066/locandina.jpg</image>
 		<data>
 			<anno>--</anno>
@@ -79,7 +81,7 @@
     	<cast>Robert Downey Jr., Gwyneth Paltrow, Don Cheadle, Scarlett Johansson, Sam Rockwell</cast>
 		<genere>Azione</genere>
 		<uscita>2010</uscita>
-		<descrizione>In "Iron Man 2," il mondo &egrave; consapevole che il miliardario inventore Tony Stark (Robert Downey Jr.) &egrave; il corazzato supereroe Iron Man. Sotto pressione da parte del governo, la stampa e il pubblico per condividere la sua...</descrizione>
+		<descrizione>In "Iron Man 2," il mondo è consapevole che il miliardario inventore Tony Stark (Robert Downey Jr.) è il corazzato supereroe Iron Man. Sotto pressione da parte del governo, la stampa e il pubblico per condividere la sua...</descrizione>
     	<image>http://www.mymovies.it/filmclub/2008/12/128/locandina.jpg</image>
 		<data>
 			<anno>--</anno>
@@ -97,7 +99,7 @@
     	<cast>Benicio Del Toro, Anthony Hopkins, Emily Blunt, Hugo Weaving, Art Malik</cast>
 		<genere>Horror</genere>
 		<uscita>2010</uscita>
-		<descrizione>L'infanzia di Talbot &egrave; finita la morte in cui la madre &egrave; morta. Dopo aver lasciato il paesino addormentato Vittoriano di Blackmoor, ha passato decenni per riprendersi e cercare di dimenticare. Ma quando la fidanzata di suo fratello, Gwen Conliffe...</descrizione>
+		<descrizione>L'infanzia di Talbot è finita la morte in cui la madre è morta. Dopo aver lasciato il paesino addormentato Vittoriano di Blackmoor, ha passato decenni per riprendersi e cercare di dimenticare. Ma quando la fidanzata di suo fratello, Gwen Conliffe...</descrizione>
     	<image>http://www.mymovies.it/filmclub/2008/03/077/locandina.jpg</image>
 		<data>
 			<anno>--</anno>
@@ -115,7 +117,7 @@
     	<cast>Leonardo DiCaprio, Mark Ruffalo, Ben Kingsley, Michelle Williams, Patricia Clarkson</cast>
 		<genere>Drammatico</genere>
 		<uscita>2010</uscita>
-		<descrizione>Niente &egrave; quello che sembra all'Ashecliffe Hospital. E nemmeno lo &egrave; Teddy Daniels. E' l&igrave; per trovare un paziente che manca? O &egrave; stato mandato per investigare sui rumor riguardanti gli approcci radicali verso la psichiatria attuati...</descrizione>
+		<descrizione>Niente è quello che sembra all'Ashecliffe Hospital. E nemmeno lo è Teddy Daniels. E' lì per trovare un paziente che manca? O è stato mandato per investigare sui rumor riguardanti gli approcci radicali verso la psichiatria attuati...</descrizione>
     	<image>http://www.mymovies.it/filmclub/2009/03/099/locandina.jpg</image>
 		<data>
 			<anno>2010</anno>
@@ -151,7 +153,7 @@
     	<cast>Sam Worthington, Zoe Saldana, Sigourney Weaver, Stephen Lang, Michelle Rodriguez</cast>
 		<genere>Fantascienza</genere>
 		<uscita>2009</uscita>
-		<descrizione>Avatar ci porta in un mondo nuovo e spettacolare al di l&agrave; di ogni immaginazione, dove un eroe ribelle si imbarca in un'avventura epica, che alla fine lo vedr&agrave; combattere per salvare il mondo alieno che ha imparato a chiamare casa. Il film era...</descrizione>
+		<descrizione>Avatar ci porta in un mondo nuovo e spettacolare al di là di ogni immaginazione, dove un eroe ribelle si imbarca in un'avventura epica, che alla fine lo vedrà combattere per salvare il mondo alieno che ha imparato a chiamare casa. Il film era...</descrizione>
     	<image>http://www.mymovies.it/filmclub/2008/03/090/locandina.jpg</image>
 		<data>
 			<anno>2010</anno>
@@ -169,7 +171,7 @@
     	<cast>Daniel Radcliffe, Emma Watson, Rupert Grint, Michael Gambon, Alan Rickman</cast>
 		<genere>Fantastico</genere>
 		<uscita>2009</uscita>
-		<descrizione>Voldemort allunga la sua ombra minacciosa sia sul mondo dei Babbani che su quello dei maghi e Hogwarts non &egrave; pi&ugrave; un posto sicuro e accogliente come in passato. Harry sospetta che i pericoli minacciano anche la scuola, ma Silente concentra la sua...</descrizione>
+		<descrizione>Voldemort allunga la sua ombra minacciosa sia sul mondo dei Babbani che su quello dei maghi e Hogwarts non è più un posto sicuro e accogliente come in passato. Harry sospetta che i pericoli minacciano anche la scuola, ma Silente concentra la sua...</descrizione>
     	<image>http://www.mymovies.it/filmclub/2007/02/129/locandina.jpg</image>
 		<data>
 			<anno>2010</anno>
@@ -187,7 +189,7 @@
     	<cast>Tom Hanks, Ewan McGregor, Ayelet Zurer, Stellan SkarsgÃ¥rd, Pierfrancesco Favino</cast>
 		<genere>Thriller</genere>
 		<uscita>2009</uscita>
-		<descrizione>Langdon scopre le prove della rinascita di unantica confraternita segreta conosciuta come gli Illuminati, la pi&ugrave; potente organizzazione sotto copertura della Storia, e deve anche fronteggiare un pericolo mortale per la sopravvivenza del nemico pi&ugrave;...</descrizione>
+		<descrizione>Langdon scopre le prove della rinascita di unantica confraternita segreta conosciuta come gli Illuminati, la più potente organizzazione sotto copertura della Storia, e deve anche fronteggiare un pericolo mortale per la sopravvivenza del nemico più...</descrizione>
     	<image>http://www.mymovies.it/filmclub/2008/10/022/locandina.jpg</image>
 		<data>
 			<anno>2009</anno>
@@ -205,7 +207,7 @@
     	<cast>Ray Romano, John Leguizamo, Denis Leary, Simon Pegg, Queen Latifah</cast>
 		<genere>Animazione</genere>
 		<uscita>2009</uscita>
-		<descrizione>Dopo gli eventi del secondo film, la vita comincia a cambiare per Manny e i suoi amici: Scrat &egrave; ancora alla caccia della sua amata ghianda, ma trova una possibile storia d'amore con la scoiattola Scratte. Manny e Ellie sono diventati una coppia e stanno...</descrizione>
+		<descrizione>Dopo gli eventi del secondo film, la vita comincia a cambiare per Manny e i suoi amici: Scrat è ancora alla caccia della sua amata ghianda, ma trova una possibile storia d'amore con la scoiattola Scratte. Manny e Ellie sono diventati una coppia e stanno...</descrizione>
     	<image>http://www.mymovies.it/filmclub/2008/03/061/locandina.jpg</image>
 		<data>
 			<anno>2009</anno>
@@ -223,7 +225,7 @@
     	<cast>Megan Fox, Shia LaBeouf, Hugo Weaving, Rainn Wilson, Josh Duhamel</cast>
 		<genere>Azione</genere>
 		<uscita>2009</uscita>
-		<descrizione>Se la battaglia per la Terra &egrave; appena terminata, quella dell'universo sta per cominciare. Cosa accadr&agrave;? Gli Autobots superstiti decidono di restare sulla Terra come guardiani dell'umanit&agrave;, fondando una piccola base Autobots. Starscream &egrave;...</descrizione>
+		<descrizione>Se la battaglia per la Terra è appena terminata, quella dell'universo sta per cominciare. Cosa accadrà? Gli Autobots superstiti decidono di restare sulla Terra come guardiani dell'umanità, fondando una piccola base Autobots. Starscream è...</descrizione>
     	<image>http://www.mymovies.it/filmclub/2008/12/010/locandina.jpg</image>
 		<data>
 			<anno>2009</anno>
@@ -241,7 +243,7 @@
     	<cast>Heath Ledger, Johnny Depp, Colin Farrell, Jude Law, Christopher Plummer</cast>
 		<genere>Fantastico</genere>
 		<uscita>2009</uscita>
-		<descrizione>Il Dottor Parnassus gira per le strade con il suo carrozzone dalle qualit&agrave; particolari. In compagnia di un giovane, una fanciulla (sua figlia Valentina) e un nano mette in scena ovunque uno spettacolo che ha al suo centro uno specchio. Chi lo oltrepassa si...</descrizione>
+		<descrizione>Il Dottor Parnassus gira per le strade con il suo carrozzone dalle qualità particolari. In compagnia di un giovane, una fanciulla (sua figlia Valentina) e un nano mette in scena ovunque uno spettacolo che ha al suo centro uno specchio. Chi lo oltrepassa si...</descrizione>
     	<image>http://www.mymovies.it/filmclub/2008/05/095/locandina.jpg</image>
 		<data>
 			<anno>2009</anno>
@@ -259,7 +261,7 @@
     	<cast>John Cusack, Chiwetel Ejiofor, Amanda Peet, Oliver Platt, Thandie Newton</cast>
 		<genere>Catastrofico</genere>
 		<uscita>2009</uscita>
-		<descrizione>Nel 2009, in un centro di ricerca indiano situato nelle profondit&agrave; di una miniera di rame, viene rilevata un'improvvisa variazione dell'emissione dei neutrini solari e il conseguente surriscaldamento del nucleo terrestre. La scoperta viene studiata dal...</descrizione>
+		<descrizione>Nel 2009, in un centro di ricerca indiano situato nelle profondità di una miniera di rame, viene rilevata un'improvvisa variazione dell'emissione dei neutrini solari e il conseguente surriscaldamento del nucleo terrestre. La scoperta viene studiata dal...</descrizione>
     	<image>http://www.mymovies.it/filmclub/2008/11/079/locandina.jpg</image>
 		<data>
 			<anno>2009</anno>
@@ -277,7 +279,7 @@
     	<cast>Edward Asner, Christopher Plummer, Jordan Nagai, Bob Peterson, Delroy Lindo</cast>
 		<genere>Animazione</genere>
 		<uscita>2009</uscita>
-		<descrizione>In una sala cinematografica si proietta un cinegiornale su un esploratore, Charles Muntz, che &egrave; tornato dall'America del Sud con lo scheletro di un uccello che la scienza ufficiale qualifica come falso. Muntz riparte per dimostrare la sua onest&agrave;...</descrizione>
+		<descrizione>In una sala cinematografica si proietta un cinegiornale su un esploratore, Charles Muntz, che è tornato dall'America del Sud con lo scheletro di un uccello che la scienza ufficiale qualifica come falso. Muntz riparte per dimostrare la sua onestà...</descrizione>
     	<image>http://www.mymovies.it/filmclub/2008/07/070/locandina.jpg</image>
 		<data>
 			<anno>2009</anno>
@@ -295,7 +297,7 @@
     	<cast>Robert Downey Jr., Jude Law, Rachel McAdams, Mark Strong, Kelly Reilly</cast>
 		<genere>Azione</genere>
 		<uscita>2009</uscita>
-		<descrizione>Il celebre investigatore creato da Conan Doyle perde molti degli aspetti pi&ugrave; vittoriani e diventa pi&ugrave; avventuroso, utilizzando anche le sue abilit&agrave; di spadaccino e boxer per risolvere i crimini a cui indaga.</descrizione>
+		<descrizione>Il celebre investigatore creato da Conan Doyle perde molti degli aspetti piè vittoriani e diventa più avventuroso, utilizzando anche le sue abilità di spadaccino e boxer per risolvere i crimini a cui indaga.</descrizione>
     	<image>http://www.mymovies.it/filmclub/2009/04/006/locandina.jpg</image>
 		<data>
 			<anno>2009</anno>
@@ -331,7 +333,7 @@
     	<cast>Toni Servillo, Gianfelice Imparato, Maria Nazionale, Salvatore Cantalupo, Gigio Morra</cast>
 		<genere>Drammatico</genere>
 		<uscita>2008</uscita>
-		<descrizione>Tratto dall'omonimo bestseller di Roberto Saviano, il film &egrave; un ritratto della camorra e della criminalit&agrave; contemporanea nella citt&agrave; di Napoli. Un viaggio nel mondo affaristico e criminale della camorra che si apre e si chiude nel segno delle merci, del loro ciclo di vita.</descrizione>
+		<descrizione>Tratto dall'omonimo bestseller di Roberto Saviano, il film è un ritratto della camorra e della criminalità contemporanea nella città di Napoli. Un viaggio nel mondo affaristico e criminale della camorra che si apre e si chiude nel segno delle merci, del loro ciclo di vita.</descrizione>
     	<image>http://www.mymovies.it/filmclub/2008/04/071/locandina.jpg</image>
 		<data>
 			<anno>2009</anno>
@@ -349,7 +351,7 @@
     	<cast>Kristen Stewart, Robert Pattinson, Taylor Lautner, Billy Burke, Peter Facinelli</cast>
 		<genere>Fantastico</genere>
 		<uscita>2008</uscita>
-		<descrizione>Quando sua madre si risposa Bella Swan decide di andare a vivere col padre nella piccola e piovosa citt&agrave; di Forks. Qui incontra il misterioso Edward Cullen, che nasconde un segreto conosciuto solo dai membri della propria famiglia. Ma Edward e Bella si innamorano e questo mette...</descrizione>
+		<descrizione>Quando sua madre si risposa Bella Swan decide di andare a vivere col padre nella piccola e piovosa città di Forks. Qui incontra il misterioso Edward Cullen, che nasconde un segreto conosciuto solo dai membri della propria famiglia. Ma Edward e Bella si innamorano e questo mette...</descrizione>
     	<image>http://www.mymovies.it/filmclub/2008/06/052/locandina.jpg</image>
 		<data>
 			<anno>2009</anno>
@@ -367,7 +369,7 @@
     	<cast>Jack Black, Dustin Hoffman, Angelina Jolie, Ian McShane, Jackie Chan</cast>
 		<genere>Animazione</genere>
 		<uscita>2008</uscita>
-		<descrizione>Po &egrave; un giovane panda il cui padre (un volatile) gestisce un piccolo ristorante la cui specialit&agrave; sono i noodles cucinati secondo una ricetta segreta. Po fa il cameriere ma intanto sogna di poter essere un eroe del kung fu. Finch&egrave; un giorno, in seguito a una predizione...</descrizione>
+		<descrizione>Po è un giovane panda il cui padre (un volatile) gestisce un piccolo ristorante la cui specialità sono i noodles cucinati secondo una ricetta segreta. Po fa il cameriere ma intanto sogna di poter essere un eroe del kung fu. Finchè un giorno, in seguito a una predizione...</descrizione>
     	<image>http://www.mymovies.it/filmclub/2007/01/025/locandina.jpg</image>
 		<data>
 			<anno>2009</anno>
@@ -385,7 +387,7 @@
     	<cast>Johnny Depp, Orlando Bloom, Keira Knightley, Geoffrey Rush, Jonathan Pryce</cast>
 		<genere>Avventura</genere>
 		<uscita>2007</uscita>
-		<descrizione>Il pirata Jack Sparrow deve sopravvivere al limbo di sabbia a cui lo ha costretto Davy Jones, padrone dell'oceano e della sua anima. Una nave carica di pirati si spinger&agrave; fino ai confini del mondo per salvare Jack Sparrow. La squadra della Perla Nera &egrave; capitanata dai consueti...</descrizione>
+		<descrizione>Il pirata Jack Sparrow deve sopravvivere al limbo di sabbia a cui lo ha costretto Davy Jones, padrone dell'oceano e della sua anima. Una nave carica di pirati si spingerà fino ai confini del mondo per salvare Jack Sparrow. La squadra della Perla Nera è capitanata dai consueti...</descrizione>
     	<image>http://www.mymovies.it/filmclub/2007/01/018/locandina.jpg</image>
 		<data>
 			<anno>2009</anno>
