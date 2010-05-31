@@ -18,7 +18,7 @@ print $page->start_html( # inizio pagina HTML
 		-meta => {'keywords' => 'noleggio, video, film, bazinga',
 			'description' => 'Noleggio film',
 			'author' => 'BazingaSoft'},
-		-style=>{-src=>['../css/main.css'],
+		-style => {-src => ['../css/main.css'],
 			-media => 'screen'}
 );
 
