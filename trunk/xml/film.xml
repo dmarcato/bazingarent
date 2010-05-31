@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE lista SYSTEM "./BazingaRent/xml/lista.dtd">
-
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE lista SYSTEM "lista.dtd">
 <lista>
 	<film id="01">
 		<titolo>Prince of Persia - Le sabbie del tempo</titolo>
@@ -8,7 +7,7 @@
     	<cast>Jake Gyllenhaal, Ben Kingsley, Gemma Arterton, Alfred Molina, Steve Toussaint</cast>
     	<genere>Azione</genere>
 		<uscita>2010</uscita>
-		<descrizione>Ambientato nella Persia medievale, il film racconta la storia di un principe avventuroso che fa coppia con la principessa rivale per fermare un sovrano arrabbiato che vuole scatenare una tempesta di sabbia che pu&ograve; distruggere il mondo...</descrizione>
+		<descrizione>Ambientato nella Persia medievale, il film racconta la storia di un principe avventuroso che fa coppia con la principessa rivale per fermare un sovrano arrabbiato che vuole scatenare una tempesta di sabbia che può distruggere il mondo...</descrizione>
     	<image>http://www.mymovies.it/filmclub/2007/03/167/locandina.jpg</image>
 		<data>
 			<anno>--</anno>
@@ -152,7 +151,7 @@
     	<cast>Sam Worthington, Zoe Saldana, Sigourney Weaver, Stephen Lang, Michelle Rodriguez</cast>
 		<genere>Fantascienza</genere>
 		<uscita>2009</uscita>
-		<descrizione>Avatar ci porta in un mondo nuovo e spettacolare al di l&agrave; di ogni immaginazione, dove un eroe ribelle si imbarca in un'��avventura epica, che alla fine lo vedr&agrave; combattere per salvare il mondo alieno che ha imparato a chiamare casa. Il film era...</descrizione>
+		<descrizione>Avatar ci porta in un mondo nuovo e spettacolare al di l&agrave; di ogni immaginazione, dove un eroe ribelle si imbarca in un'avventura epica, che alla fine lo vedr&agrave; combattere per salvare il mondo alieno che ha imparato a chiamare casa. Il film era...</descrizione>
     	<image>http://www.mymovies.it/filmclub/2008/03/090/locandina.jpg</image>
 		<data>
 			<anno>2010</anno>
@@ -185,7 +184,7 @@
 	<film id="11">
 		<titolo>Angeli e Demoni</titolo>
     	<regista>Ron Howard</regista>
-    	<cast>Tom Hanks, Ewan McGregor, Ayelet Zurer, Stellan Skarsgård, Pierfrancesco Favino</cast>
+    	<cast>Tom Hanks, Ewan McGregor, Ayelet Zurer, Stellan SkarsgÃ¥rd, Pierfrancesco Favino</cast>
 		<genere>Thriller</genere>
 		<uscita>2009</uscita>
 		<descrizione>Langdon scopre le prove della rinascita di unantica confraternita segreta conosciuta come gli Illuminati, la pi&ugrave; potente organizzazione sotto copertura della Storia, e deve anche fronteggiare un pericolo mortale per la sopravvivenza del nemico pi&ugrave;...</descrizione>
@@ -251,7 +250,7 @@
 		</data>
 		<link>http://www.mymovies.it/film/2009/parnassus/</link>
 		<disp>0</disp>
-		<noleggi>16</noleg1gi>
+		<noleggi>16</noleggi>
 	</film>
 	
 	<film id="15">
