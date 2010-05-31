@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<xsl:template match="/">
-		
-		<div class="contBox">
+	
 		<xsl:for-each select="lista/film">
 			
 			<xsl:sort select="noleggi" order="descending"/>
@@ -41,8 +40,6 @@
 						<xsl:attribute name="href"><xsl:value-of select="link" /></xsl:attribute>
 					Scheda film</a>
 				</div>
-				
 			</xsl:if>
 		</xsl:for-each>
-	</div>
 	</xsl:template>

@@ -2,7 +2,6 @@
 <xsl:output method='html' version='1.0' encoding='UTF-8' indent='yes'/>
 <xsl:template match="/">
 	
-	<div class="contBox">
 		<xsl:for-each select="lista/film">
 			
 			<xsl:sort select="data"/>
@@ -45,6 +44,5 @@
 				
 			</xsl:if>
 		</xsl:for-each>
-	</div>
 
 </xsl:template>
