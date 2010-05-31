@@ -145,15 +145,15 @@ p.intro {
 
 .boxFilmL img {
 	float: left;
-	width: 30%;
-	height: 100%;
+	width: 150px;
+	height: 213px;
 	margin-right: 0.5em;
 }
 
 .boxFilmR img {
 	float: left;
-	width: 30%;
-	height: 100%;
+	width: 150px;
+	height: 213px;
 	margin-right: 0.5em;
 }
 
