@@ -5,7 +5,7 @@
 			
 			<xsl:sort select="noleggi" order="descending"/>
 			
-			<xsl:if test="((position() mod 2)=1) and (data/anno != '--')">
+			<xsl:if test="((position() mod 2)=1) and (data/anno != '--') and (position() &lt; 7)">
 		
 				<div class="boxFilmL">
 					<img>
@@ -24,7 +24,7 @@
 				
 			</xsl:if>
 			
-			<xsl:if test="((position() mod 2)=0) and (data/anno != '--')">
+			<xsl:if test="((position() mod 2)=0) and (data/anno != '--') and (position() &lt; 7)">
 		
 				<div class="boxFilmR">
 					<img>
