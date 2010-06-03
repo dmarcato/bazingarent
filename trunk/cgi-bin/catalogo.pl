@@ -5,6 +5,13 @@ use strict;
 use CGI ':standard';
 use XML::LibXML;
 
+my $lettera = param('letter');
+if (!$lettera) {
+	$lettera = 'A';
+}
+
+my $cerca = param('txtCerca');
+
 my $page = new CGI;
 
 #$page->header(-charset=>'UTF-8'); # crea l’header HTTP
@@ -16,8 +23,11 @@ print $page->start_html( # inizio pagina HTML
 		-meta => {'keywords' => 'noleggio, video, film, bazinga',
 			'description' => 'Noleggio film',
 			'author' => 'BazingaSoft'},
-		-style => {-src => ['../css/main.css'],
-			-media => 'screen'}
+		-style => [{-src => ['../css/main.css'],
+			-media => 'screen'},
+			{-src => ['../css/mobile.css'],
+			-media => 'handheld'}],
+		-script => [{-src => '../js/jquery-1.4.2.min.js'}, '$(document).ready(function() { $("#lettera'.$lettera.'").addClass("current"); });'] 
 );
 
 print "<div id='header'>\n
@@ -33,13 +43,6 @@ print "<div id='path'>\n
 		</ul>\n
 	</div>\n";
 	
-my $lettera = param('letter');
-if (!$lettera) {
-	$lettera = 'A';
-}
-
-my $cerca = param('txtCerca');
-	
 print "<div id='content'>\n
 
 		<h1>Catalogo</h1>\n
@@ -51,33 +54,33 @@ print "<div id='content'>\n
 		</div>\n
 		
 		<p class='lettereCatalogo'>
-			<a href='?letter=1'>#</a>
-			<a href='?letter=A'>A</a>
-			<a href='?letter=B'>B</a>
-			<a href='?letter=C'>C</a>
-			<a href='?letter=D'>D</a>
-			<a href='?letter=E'>E</a>
-			<a href='?letter=F'>F</a>
-			<a href='?letter=G'>G</a>
-			<a href='?letter=H'>H</a>
-			<a href='?letter=I'>I</a>
-			<a href='?letter=J'>J</a>
-			<a href='?letter=K'>K</a>
-			<a href='?letter=L'>L</a>
-			<a href='?letter=M'>M</a>
-			<a href='?letter=N'>N</a>
-			<a href='?letter=O'>O</a>
-			<a href='?letter=P'>P</a>
-			<a href='?letter=Q'>Q</a>
-			<a href='?letter=R'>R</a>
-			<a href='?letter=S'>S</a>
-			<a href='?letter=T'>T</a>
-			<a href='?letter=U'>U</a>
-			<a href='?letter=V'>V</a>
-			<a href='?letter=W'>W</a>
-			<a href='?letter=X'>X</a>
-			<a href='?letter=Y'>Y</a>
-			<a href='?letter=Z'>Z</a>
+			<a href='?letter=1' id='lettera1'>#</a>
+			<a href='?letter=A' id='letteraA'>A</a>
+			<a href='?letter=B' id='letteraB'>B</a>
+			<a href='?letter=C' id='letteraC'>C</a>
+			<a href='?letter=D' id='letteraD'>D</a>
+			<a href='?letter=E' id='letteraE'>E</a>
+			<a href='?letter=F' id='letteraF'>F</a>
+			<a href='?letter=G' id='letteraG'>G</a>
+			<a href='?letter=H' id='letteraH'>H</a>
+			<a href='?letter=I' id='letteraI'>I</a>
+			<a href='?letter=J' id='letteraJ'>J</a>
+			<a href='?letter=K' id='letteraK'>K</a>
+			<a href='?letter=L' id='letteraL'>L</a>
+			<a href='?letter=M' id='letteraM'>M</a>
+			<a href='?letter=N' id='letteraN'>N</a>
+			<a href='?letter=O' id='letteraO'>O</a>
+			<a href='?letter=P' id='letteraP'>P</a>
+			<a href='?letter=Q' id='letteraQ'>Q</a>
+			<a href='?letter=R' id='letteraR'>R</a>
+			<a href='?letter=S' id='letteraS'>S</a>
+			<a href='?letter=T' id='letteraT'>T</a>
+			<a href='?letter=U' id='letteraU'>U</a>
+			<a href='?letter=V' id='letteraV'>V</a>
+			<a href='?letter=W' id='letteraW'>W</a>
+			<a href='?letter=X' id='letteraX'>X</a>
+			<a href='?letter=Y' id='letteraY'>Y</a>
+			<a href='?letter=Z' id='letteraZ'>Z</a>
 		</p>
 		
 		<div class='contBox'>\n";

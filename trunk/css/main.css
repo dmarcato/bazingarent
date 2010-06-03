@@ -142,6 +142,8 @@ p.intro {
 	width: 45%;
 	padding: 1em;
 	margin-bottom: 0.5em;
+	overflow: auto;
+	height: 214px;
 }
 
 .boxFilmR {
@@ -149,6 +151,8 @@ p.intro {
 	width: 45%;
 	padding: 1em;
 	margin-bottom: 0.5em;
+	overflow: auto;
+	height: 214px;
 }
 
 .boxFilmL img {
@@ -215,4 +219,8 @@ p.intro {
 .lettereCatalogo a {
 	margin-right: 8px;
 	color: #110e86;
+}
+
+.lettereCatalogo a.current {
+	background-color: #fff;
 }
