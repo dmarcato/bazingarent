@@ -41,11 +41,11 @@
 		
 	<div id="path">
 		<ul id="navigazione">
-			<li><a href="index.html">Home</a></li>
-			<li class="current"><a href="catalogo.html">Catalogo</a></li>
-			<li><a href="noleggiati.html">I pi&ugrave; noleggiati</a></li>
-			<li><a href="trovaci.html">Come trovarci</a></li>
-			<li><a href="prossimamente.html">Prossimamente</a></li>
+			<li><a title="Home del sito" href="index.html">Home</a></li>
+			<li class="current"><a title="I film a disposizione" href="catalogo.html">Catalogo</a></li>
+			<li><a title="I pi&ugrave; noleggiati" href="noleggiati.html">I pi&ugrave; noleggiati</a></li>
+			<li><a title="Come trovarci" href="trovaci.html">Come trovarci</a></li>
+			<li><a title="I prossimi arrivi" href="prossimamente.html">Prossimamente</a></li>
 		</ul>
 	</div>
 	
@@ -53,11 +53,11 @@
 		
 		<h1>Catalogo</h1>
 		
-		<div id="cerca">
-			<form action="./cgi-bin/cerca.pl" method="get">
+		<form action="./cgi-bin/cerca.pl" method="get">
+			<div id="cerca">
 				Cerca: <input type="text" id="txtCerca" name="txtCerca" /><input type="submit" value="Vai!" />
-			</form>
-		</div>
+			</div>
+		</form>
 		
 		<div class="contBox"></div>
 		
