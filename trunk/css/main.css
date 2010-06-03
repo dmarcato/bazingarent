@@ -128,7 +128,6 @@ p.intro {
 	background-color: #a4c0ee;
 	text-align: center;
 	margin: auto;
-	margin-top: 5px;
 }
 
 
@@ -197,6 +196,11 @@ p.intro {
 
 #txtCerca {
 	width: 200px;
+}
+
+#map {
+	width: 70%;
+	margin: auto;
 }
 
 #mapPic {
