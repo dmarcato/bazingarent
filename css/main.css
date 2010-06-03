@@ -99,8 +99,8 @@ h1 {
 
 p.intro {
 	text-align: center;
-	/*float: right;*/
-	width: 100%;
+	margin: auto;
+	width: 98%;
 	padding: 0.3em;
 	border: 1px solid #fff;
 	background-color: #a4c0ee;
