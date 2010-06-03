@@ -202,3 +202,13 @@ p.intro {
 #mapPic {
 	display:none;
 }
+
+.lettereCatalogo {
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+.lettereCatalogo a {
+	margin-right: 8px;
+	color: #110e86;
+}
