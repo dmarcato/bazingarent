@@ -224,3 +224,8 @@ p.intro {
 .lettereCatalogo a.current {
 	background-color: #fff;
 }
+
+#loginBox {
+	margin: auto;
+	text-align: center;
+}

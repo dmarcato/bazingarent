@@ -14,7 +14,7 @@ my $cerca = param('txtCerca');
 
 my $page = new CGI;
 
-#$page->header(-charset=>'UTF-8'); # crea l’header HTTP
+#$page->header(-charset=>'UTF-8'); # crea l'header HTTP
 print $page->start_html( # inizio pagina HTML
 		-title => 'Catalogo',
 		-charset =>'UTF-8',
