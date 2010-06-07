@@ -14,7 +14,7 @@ if ($query->param('logout')) {
     CGI::Session->name($cookie);
   }
   # Expire the server session
-  $session = new CGI::Session("driver:File",$cookie,{'Directory'=>"d:/apache/tmp"}) or die "$!";
+  $session = new CGI::Session("driver:File",$cookie,{'Directory'=>"/tmp"}) or die "$!";
   $session->clear();
   $session->expire('+2h');
   # Remove the session cookie
@@ -25,7 +25,7 @@ if ($query->param('logout')) {
 }
 
 # Initiate the session
-$session = new CGI::Session("driver:File",undef,{'Directory'=>"d:/apache/tmp"});
+$session = new CGI::Session("driver:File",undef,{'Directory'=>"/tmp"});
 
 # Fetch login and password
 $login = $query->param('login');
@@ -34,12 +34,11 @@ $pwd = $query->param('pwd');
 $pwd =~ s/(?:\012\015|\012|\015)//g;
 
 # Check the credentials and populate the status variable
-if (($login eq 'Admin') and ($pwd eq 'Password')) {
+if (($login eq 'admin') and ($pwd eq 'admin')) {
   $zstatus = 'administrator';
-} elsif (($login eq 'Private') and ($pwd eq 'Soldier')) {
-  $zstatus = 'private';
 } else {
-  print "Content-type: text/plain\n\nNope !";
+  #print "Content-type: text/plain\n\nNope !";
+  print "Location: ../accesso_negato.html\n\n";
   exit(0);
 }
 
@@ -58,7 +57,7 @@ print "Location: ".$ENV{'HTTP_REFERER'}."\n\n";
 # Clean the server
 if (int(rand(10)) == 1) {
   # expire old sessions
-  $filez = "d:/apache/tmp/*";
+  $filez = "/tmp/*";
   while ($file = glob($filez)) {
     @stat=stat $file; 
     $days = (time()-$stat[9]) / (60*60*24);
