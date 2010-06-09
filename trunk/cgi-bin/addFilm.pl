@@ -74,6 +74,8 @@ if ($insert) {
 	open(FILE,">$listaFilm") || die("non apro il file db");
 	print FILE $doc->toString();
 	close(FILE);
+	print "Content-type: text/plain\n\nFilm aggiunto";
+	exit(0);
 }
 
 print "Content-type: text/html\r\n\r\n";
