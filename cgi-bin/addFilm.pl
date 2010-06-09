@@ -24,6 +24,16 @@ if (!($status eq 'administrator')) {
 	exit(0);
 }
 
+print "Content-type: text/html\r\n\r\n";
+open FILE, "../addFilm.html" or die "$!";
+binmode FILE;
+my ($data, $n);
+while (($n = read FILE, $data, 4) != 0) {
+  print $data;
+}
+close(FILE);
+exit(0);
+
 # Aggiunta film
 #print "Content-type: text/plain\n\n".$status;
 
