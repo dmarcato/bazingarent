@@ -29,18 +29,10 @@ if (!($status eq 'administrator')) {
 
 use XML::LibXML;
 
-my $lettera = param('letter');
-if (!$lettera) {
-	$lettera = 'A';
-}
-
-my $cerca = param('txtCerca');
-
 my $page = new CGI;
 
-#$page->header(-charset=>'UTF-8'); # crea l'header HTTP
 print $page->start_html( # inizio pagina HTML
-		-title => 'Catalogo',
+		-title => 'Aggiunta film',
 		-charset =>'UTF-8',
 		-dtd =>[ '-//W3C//DTD XHTML 1.0 Strict//EN','http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'],
 		-lang =>'it',
@@ -60,7 +52,7 @@ print "<div id='header'>\n
 print "<div id='path'>\n
 		<ul id='navigazione'>\n
 			<li><a href='../index.html'>Home</a></li>\n
-			<li class='current'><a href='#'>Catalogo</a></li>\n
+			<li><a href='#'>Catalogo</a></li>\n
 			<li><a href='../noleggiati.html'>I pi&ugrave; noleggiati</a></li>\n
 			<li><a href='../trovaci.html'>Come trovarci</a></li>\n
 			<li><a href='../prossimamente.html'>Prossimamente</a></li>\n
@@ -69,49 +61,9 @@ print "<div id='path'>\n
 	
 print "<div id='content'>\n
 
-		<h1>Catalogo</h1>\n
+		<h1>Aggiunta film</h1>\n
 
-		<div id='cerca'>\n
-			<form action='#' method='get'>\n
-				Cerca: <input type='text' id='txtCerca' name='txtCerca' value='".$cerca."' />&nbsp;<input type='submit' value='Vai!' />\n
-			</form>\n
-		</div>\n
-		
-		<p class='lettereCatalogo'>
-			<a href='?letter=1' id='lettera1'>#</a>
-			<a href='?letter=A' id='letteraA'>A</a>
-			<a href='?letter=B' id='letteraB'>B</a>
-			<a href='?letter=C' id='letteraC'>C</a>
-			<a href='?letter=D' id='letteraD'>D</a>
-			<a href='?letter=E' id='letteraE'>E</a>
-			<a href='?letter=F' id='letteraF'>F</a>
-			<a href='?letter=G' id='letteraG'>G</a>
-			<a href='?letter=H' id='letteraH'>H</a>
-			<a href='?letter=I' id='letteraI'>I</a>
-			<a href='?letter=J' id='letteraJ'>J</a>
-			<a href='?letter=K' id='letteraK'>K</a>
-			<a href='?letter=L' id='letteraL'>L</a>
-			<a href='?letter=M' id='letteraM'>M</a>
-			<a href='?letter=N' id='letteraN'>N</a>
-			<a href='?letter=O' id='letteraO'>O</a>
-			<a href='?letter=P' id='letteraP'>P</a>
-			<a href='?letter=Q' id='letteraQ'>Q</a>
-			<a href='?letter=R' id='letteraR'>R</a>
-			<a href='?letter=S' id='letteraS'>S</a>
-			<a href='?letter=T' id='letteraT'>T</a>
-			<a href='?letter=U' id='letteraU'>U</a>
-			<a href='?letter=V' id='letteraV'>V</a>
-			<a href='?letter=W' id='letteraW'>W</a>
-			<a href='?letter=X' id='letteraX'>X</a>
-			<a href='?letter=Y' id='letteraY'>Y</a>
-			<a href='?letter=Z' id='letteraZ'>Z</a>
-		</p>
-		
 		<div class='contBox'>\n";
-
-if ($lettera =~ '1') {
-	$lettera = '[0-9]';
-}
 
 my $file = '../xml/film.xml';
 #creazione oggetto parser
