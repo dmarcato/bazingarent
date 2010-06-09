@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 
 use CGI::Session;
-use CGI;
+use CGI ':standard';
 
 $query = new CGI;
 $cookie = $query->cookie(-name => "session");
