@@ -68,8 +68,8 @@ if ($insert) {
 	# Parsing del nuovo nodo
 	my $frammento = $parser->parse_balanced_chunk($nuovo);
 	# Viene aggiunto in coda il nodo creato prima
-	my $first = $radice->getFirstChild();
-	$radice->insertAfter($frammento, $first);
+	#my $first = $radice->getFirstChild();
+	$radice->insertAfter($frammento, $radice);
 	# Scrive il documento modificato nel file XML d'origine
 	open(FILE,">$listaFilm") || die("non apro il file db");
 	print FILE $doc->toString();
