@@ -1,0 +1,83 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[italian]{babel}
+\usepackage{graphicx}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage{color}
+\usepackage{hyperref}
+\pagestyle{fancy}
+
+
+\title{\textbf{Relazione BazingaRent}}
+
+\lfoot{BazingaRent}
+\cfoot{}
+\rfoot{\thepage /\pageref{LastPage}}
+
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\renewcommand{\sectionmark}[1]{
+\markboth{}{}}
+
+\hypersetup{
+colorlinks=true,
+linkcolor=blue
+}
+
+\begin{document}
+	 
+	\maketitle
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%% SOMMARIO
+	\begin{abstract}
+	Questo documento contiene la relazione del progetto di Tecnologie Web denominato BazingaRent.
+	\end{abstract}
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%% TABELLA INFO DOCUMENTO		
+	\begin{center}
+		\section*{}
+		\begin{tabular}{r|l}
+		
+			\multicolumn{2}{c}{\bf Informazioni del documento}\\
+			\hline
+			{Redazione} & {A.Griggio}\\
+			{Verifica}& {D.Calonego}\\
+			{Approvazione}& {M.Broggio}\\
+			{Stato}& Formale\\
+			{Uso}& Esterno\\
+			{Nome File}& nome\_file\\
+			{Versione}& {1.0}\\
+			{Distribuzione}& BazingaRent\\
+			{}&{Gaggi Ombretta}\\
+		\end{tabular}
+	\end{center}	
+	
+	\newpage
+	\tableofcontents
+	\newpage
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SEZIONE 1
+
+	\section{Introduzione}
+	BazingaRent ha lo scopo di rappresentare un sito internet per un negozio di video-noleggio.
+	Nel sito si vogliono visualizzare: 
+		\begin{itemize}
+			\item {catalogo dove l'utente può cercare il/i film desiderato/i;}		
+			\item {breve descrizione dei film;}			
+			\item {disponibilità dei film;}
+			\item {ultimi arrivi;}
+			\item {film più noleggiati;}
+			\item {l'indirizzo della sede fisica del negozio con indicazioni per raggiungerlo, orari e contatti;}
+			\item {film in arrivo, a breve disponibili.}
+		\end{itemize}
+	Considerando i contenuti del sito è stato ritenuto opportuno garantire l'accessibilità alla maggior parte degli utenti, in particolar modo a quelli affetti da disturbi visivi. Inoltre lo stesso è stato realizzato in modo da poter essere visualizzato correttamente anche su dispositivi portatili, quali cellulari.
+	Tutto questo rispettando gli standard Xhtml 1.0 Strict e Css 2.
+	
+	\section{Fase di progettazione}
+			
+			
+			\begin{center}
+			\includegraphics{images/layoutpagina.png}
+			\end{center}
+\end{document}
