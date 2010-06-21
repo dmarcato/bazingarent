@@ -34,23 +34,6 @@ if ($deleteId) {
 	my $radice= $doc->getDocumentElement;
 	my @lastFilm = $doc->findnodes("/lista/film[last()]");
 	my $id = $lastFilm[0]->getAttribute('id') + 1;
-	my $nuovo = "<film id=\"$id\">
-	<titolo>$titolo</titolo>
-	<regista>$regista</regista>
-	<cast>$cast</cast>
-	<genere>$genere</genere>
-	<uscita>$uscita</uscita>
-	<descrizione>$descrizione</descrizione>
-	<image>$image</image>
-	<data>
-		<anno>$dataAA</anno>
-		<mese>$dataMM</mese>
-		<giorno>$dataGG</giorno>
-	</data>
-	<link>$link</link>
-	<disp>$disp</disp>
-	<noleggi>$noleggi</noleggi>
-	</film> ";
 	# Parsing del nuovo nodo
 	my $frammento = $parser->parse_balanced_chunk($nuovo);
 	# Viene aggiunto in coda il nodo creato prima
