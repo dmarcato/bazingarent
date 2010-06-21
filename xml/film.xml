@@ -35,7 +35,7 @@
 			<giorno>19</giorno>
 		</data>
 		<link>http://www.mymovies.it/film/2010/aliceinwonderland/</link>
-		<disp>03</disp>
+		<disp>3</disp>
 		<noleggi>25</noleggi>
 	</film>
 		
@@ -53,7 +53,7 @@
 			<giorno>28</giorno>
 		</data>
 		<link>http://www.mymovies.it/film/2010/scusamativogliosposare/</link>
-		<disp>05</disp>
+		<disp>5</disp>
 		<noleggi>20</noleggi>
 	</film>
 	
@@ -125,8 +125,8 @@
 			<giorno>18</giorno>
 		</data>
 		<link>http://www.mymovies.it/film/2010/shutterisland/</link>
-		<disp>02</disp>
-		<noleggi>06</noleggi>
+		<disp>2</disp>
+		<noleggi>6</noleggi>
 	</film>
 	
 	<film id="08">
@@ -143,7 +143,7 @@
 			<giorno>30</giorno>
 		</data>
 		<link>http://www.mymovies.it/film/2010/baciamiancora/</link>
-		<disp>01</disp>
+		<disp>1</disp>
 		<noleggi>18</noleggi>
 	</film>
 	
@@ -179,7 +179,7 @@
 			<giorno>02</giorno>
 		</data>
 		<link>http://www.mymovies.it/film/2009/harrypotter6/</link>
-		<disp>02</disp>
+		<disp>2</disp>
 		<noleggi>12</noleggi>
 	</film>
 	
@@ -197,7 +197,7 @@
 			<giorno>09</giorno>
 		</data>
 		<link>http://www.mymovies.it/dizionario/recensione.asp?id=46904</link>
-		<disp>04</disp>
+		<disp>4</disp>
 		<noleggi>16</noleggi>
 	</film>
 	
@@ -215,7 +215,7 @@
 			<giorno>15</giorno>
 		</data>
 		<link>http://www.mymovies.it/film/2009/eraglaciale3/</link>
-		<disp>05</disp>
+		<disp>5</disp>
 		<noleggi>23</noleggi>
 	</film>
 	
@@ -233,8 +233,8 @@
 			<giorno>09</giorno>
 		</data>
 		<link>http://www.mymovies.it/film/2009/transformerslavendettadelcaduto/</link>
-		<disp>02</disp>
-		<noleggi>07</noleggi>
+		<disp>2</disp>
+		<noleggi>7</noleggi>
 	</film>
 	
 	<film id="14">
@@ -269,8 +269,8 @@
 			<giorno>18</giorno>
 		</data>
 		<link>http://www.mymovies.it/film/2009/2012/</link>
-		<disp>01</disp>
-		<noleggi>08</noleggi>
+		<disp>1</disp>
+		<noleggi>8</noleggi>
 	</film>
 	
 	<film id="16">
@@ -305,7 +305,7 @@
 			<giorno>30</giorno>
 		</data>
 		<link>http://www.mymovies.it/film/2009/sherlockholmes/</link>
-		<disp>02</disp>
+		<disp>2</disp>
 		<noleggi>14</noleggi>
 	</film>
 	
@@ -323,7 +323,7 @@
 			<giorno>12</giorno>
 		</data>
 		<link>http://www.mymovies.it/dizionario/recensione.asp?id=44594</link>
-		<disp>03</disp>
+		<disp>3</disp>
 		<noleggi>15</noleggi>
 	</film>
 	
@@ -341,8 +341,8 @@
 			<giorno>11</giorno>
 		</data>
 		<link>http://www.mymovies.it/dizionario/recensione.asp?id=46991</link>
-		<disp>01</disp>
-		<noleggi>06</noleggi>
+		<disp>1</disp>
+		<noleggi>6</noleggi>
 	</film>
 	
 	<film id="20">

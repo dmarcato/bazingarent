@@ -79,7 +79,8 @@ linkcolor=blue
 	\section{Fase di progettazione}
 	L'idea di base \`{e} stata quella di creare un sito semplice, intuitivo, ma allo stesso tempo gradevole e funzionale, con una struttura chiara e accessibile che si mantenesse tale in ogni pagina.
 	Per garantire ci\`{o} il layout delle pagine \`{e} stato cos\`{i} pensato:
-
+\\
+\\
 			\begin{center}
 			\includegraphics{images/layoutpagina.png}
 			\end{center}		
@@ -87,7 +88,9 @@ linkcolor=blue
 	\newpage
 
 	Il men\`{u} di navigazione \`{e} stato pensato al di sotto dell'header con il nome e il logo del video-noleggio, \`{e} stato posizionato li sia per una questione di gusto estetico che per un esigenza pratica, cos\`{i} infatti viene lasciato pi\`{u} spazio alla visualizzazione dei film.
+	\\
 	Per quanto riguarda i film, si \`{e} pensato di disporli in appositi box a due a due all'interno di un contenitore principale.
+	\\
 	All'interno di ogni box sarebbero stati inseriti: 
 	\begin{itemize}
 	\item{l'immagine della locandina del film}
@@ -97,18 +100,54 @@ linkcolor=blue
 	\item{un link alla scheda completa del film}
 	\end{itemize}
 	Alla fine di ogni pagina \`{e} stato messo un footer contenente i loghi di validazione xhtml,css e il nome della compagnia.
+	\\
+	\\
+	\\	
+	Andremo ora ad analizzare la progettazione delle pagine più in dettaglio.
 
-	Per quanto riguarda il contenuto delle pagine abbiamo deciso di visualizzare gli ultimi arrivi in prima pagina, nella {\bf Home}, inoltre abbiamo aggiunto all'inizio della stessa una breve descrizione di benvenuto.
+	\newpage
+	\subsection{Home}
+	In prima pagina abbiamo deciso di visualizzare gli ultimi arrivi, ovvero i film arrivati in data recente e da poco disponibili al noleggio.
+	E' stato aggiunto prima dei box Film un breve testo di descrizione e benvenuto.	
 	
-	Un altra pagina \`{e} {\bf I pi\`{u} noleggiati}, nella quale, come dice anche il nome, sono presenti il film maggiormente noleggiati dalla clientela, ed \`{e} da considerarsi come una sorta di vetrina delle preferenze, dove l'utente dubbioso sulla scelta pu\`{o} rendersi conto di quali siano le pellicole pi\`{u} gettonate.
+	\subsection{I pi\`{u} noleggiati}
+	Qui, come dice anche il nome, sono presenti il film maggiormente noleggiati dalla clientela.
+	\\
+	E' da considerarsi come una sorta di vetrina delle preferenze, dove l'utente dubbioso sulla scelta pu\`{o} rendersi conto di quali siano le pellicole pi\`{u} gettonate.
+	
+	\subsection{Prossimamente}
+	In questa pagina invece sono contenuti i film non ancora disponibili, ma che presto arriveranno al noleggio.
+	
+	\subsection{Catalogo}
+	Nel Catalogo sono esposti tutti i film disponibili presso il video-noleggio.
+	\\
+	Per questioni di ordine, abbiamo preferito suddividere i film per iniziale, inserendo prima dei box una {\sl lista} delle lettere in ordine alfabetico, ognuna quando selezionata permette di consultare l'insieme delle pellicole col titolo che ha quella specifica iniziale.
+	E' stato inoltre integrato un form {\sl Cerca}, che permette, all'utente che magari ricorda solo parte del titolo, o a chi non volesse sfogliare i titoli per iniziale, di individuare facilmente il film desiderato.
+	\\
+	\\
+	
+	Le precedenti pagine condividono sostanzialmente la stessa struttura al fine di facilitare la navigazione all'utente medio.
 
-	Nella pagina {\bf Prossimamente} invece sono contenuti i film non ancora disponibili, ma che presto arriveranno al noleggio.
+	\subsection{Come trovarci}
+	Questa pagina è l'unica che si differenzia dalle altre in quanto a struttura, e qui si possono ottenere le indicazioni per raggiungere la sede fisica del noleggio, sono presenti inoltre orari di apertura/chiusura, recapito telefonico e indirizzo e-mail.
 	
-	Imprescindibile \`{e} il {\bf Catalogo}, in cui sono esposti tutti i film disponibili presso il video-noleggio. In quest'ultimo, per questioni di ordine, abbiamo preferito suddividere i film per iniziale, inserendo prima dei box la {\sl lista} delle lettere in ordine alfabetico, ognuna quando selezionata permette di consultare la lista delle pellicole col titolo che ha quella specifica iniziale.
-	E' stato inoltre integrato al catalogo un form {\sl Cerca}, che permette, all'utente che magari ricorda solo parte del titolo, o a chi non volesse sfogliare i titoli per iniziale, di individuare facilmente il film desiderato.
+	\newpage
 	
-	Le precedenti condividono sostanzialmente la stessa struttura al fine di facilitare la navigazione all'utente medio.
-	L'unica che si differenzia in quanto a contenuto \`{e} la pagina {\bf Come trovarci} in cui, come da titolo, si possono ottenere le indicazioni per raggiungere la sede fisica del noleggio, sono presenti poi, orari di apertura/chiusura, recapito telefonico e indirizzo e-mail.
+	\subsection{Amministrazione}
+	E' stata prevista anche una pagina di amministrazione, alla quale l'amministratore può accedere con login e password, e da cui può aggiungere, modificare, eliminare uno o più film.
+	
+	\newpage
+	
+	\section{Team di sviluppo}
+	\begin{center}
+		\begin{tabular}{r|l}
+			\multicolumn{2}{c}{\bf BazingaSoft}\\
+			\hline
+			{Alberto Griggio} & {Sviluppatore xml, grafico, redattore}\\
+			{Dario Marcato}& {Sviluppatore html e perl, esperto standard web}\\
+			{Davide Calonego}& {Web designer, tester accessibilità}\\
+			{Marco Broggio}& {Project manager, sviluppatore perl e css}\\
+		\end{tabular}
+	\end{center}	
 			
-% accessibilità daltonici, sito riferimento, membri gruppo ruoli, programmi usati per debug, realizzazione.
 \end{document}
