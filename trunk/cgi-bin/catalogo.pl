@@ -123,7 +123,7 @@ for(my $i=0; $i < $length;$i++) {
 				<p class='titolo'>".$film[$i]->getElementsByTagName('titolo')."</p>\n
 				<p class='info'>".$film[$i]->getElementsByTagName('uscita')."</p>\n
 				<div class='descr'>\n
-					<p class='descrizione'>".decode('utf-8', $film[$i]->getElementsByTagName('descrizione'))."</p>\n
+					<p class='descrizione'>".decode("utf8", $film[$i]->getElementsByTagName('descrizione'))."</p>\n
 				</div>\n
 				<a title='Scheda film' class='more' target='_blank' href=".$film[$i]->getElementsByTagName('link').">Scheda film</a>\n
 			</div>";
