@@ -35,12 +35,10 @@ if ($deleteId) {
 	my ($lastFilm) = $doc->findnodes('lista/film[@id="'.$deleteId.'"]');
 	$lastFilm->unbindNode;
 	# Scrive il documento modificato nel file XML d'origine
-	#open(FILE,">$listaFilm") || die("non apro il file db");
-	#print FILE $doc->toString();
-	#close(FILE);
+	open(FILE,">$listaFilm") || die("non apro il file db");
+	print FILE $doc->toString();
+	close(FILE);
 	print "Content-type: text/plain\n\nFilm eliminato\n";
-	print $deleteId."\n";
-	print $doc->toString;
 	exit(0);
 }
 
