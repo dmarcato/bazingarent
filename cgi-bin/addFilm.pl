@@ -77,7 +77,7 @@ if ($insert) {
 	open(FILE,">$listaFilm") || die("non apro il file db");
 	print FILE $doc->toString();
 	close(FILE);
-	print "Content-type: text/plain\n\nFilm aggiunto";
+	print "Content-type: text/html\n\nFilm aggiunto<br />\n";
 	print '<a href="javascript:history.back();">Torna indietro</a>';
 	exit(0);
 }
