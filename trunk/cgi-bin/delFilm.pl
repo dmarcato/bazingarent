@@ -33,13 +33,13 @@ if ($deleteId) {
 	my $doc = $parser -> parse_file($listaFilm);
 	my $radice= $doc->getDocumentElement;
 	my @lastFilm = $doc->findnodes('lista/film[@id="'.$deleteId.'"]');
-	print $deleteId;
 	#$lastFilm[0]->unbindNode;
 	# Scrive il documento modificato nel file XML d'origine
 	#open(FILE,">$listaFilm") || die("non apro il file db");
 	#print FILE $doc->toString();
 	#close(FILE);
 	print "Content-type: text/plain\n\nFilm eliminato\n";
+	print $deleteId."\n";
 	print $doc->toString;
 	exit(0);
 }
