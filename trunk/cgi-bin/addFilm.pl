@@ -2,6 +2,9 @@
 
 use CGI::Session;
 use CGI ':standard';
+use utf8;
+use Encode qw/is_utf8 decode/;
+binmode(STDOUT, ":utf8");
 
 $query = new CGI;
 $cookie = $query->cookie(-name => "session");
