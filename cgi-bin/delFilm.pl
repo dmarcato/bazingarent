@@ -58,7 +58,7 @@ for(my $i=0; $i < $length;$i++) {
 	$titolo = $film[$i]->getElementsByTagName('titolo');
 	#$id = $film[$i]->getAttribute('id');
 	@attrs = $film[$i]->attributes();
-	$options .= '<option value="'.$attrs['id'].'">'.$titolo.'</option>';
+	$options .= '<option value="'.$attrs[0].'">'.$titolo.'</option>';
 }
 
 print $query->start_html( # inizio pagina HTML
