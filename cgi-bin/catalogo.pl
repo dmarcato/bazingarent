@@ -5,6 +5,8 @@ use strict;
 use CGI ':standard';
 use XML::LibXML;
 use utf8;
+use Encode qw/is_utf8 decode/;
+binmode(STDOUT, ":utf8");
 
 my $lettera = param('letter');
 if (!$lettera) {
@@ -124,7 +126,7 @@ for(my $i=0; $i < $length;$i++) {
 				<p class='titolo'>".$film[$i]->getElementsByTagName('titolo')."</p>\n
 				<p class='info'>".$film[$i]->getElementsByTagName('uscita')."</p>\n
 				<div class='descr'>\n
-					<p class='descrizione'>".decode("utf8", $film[$i]->getElementsByTagName('descrizione'))."</p>\n
+					<p class='descrizione'>".$film[$i]->getElementsByTagName('descrizione')."</p>\n
 				</div>\n
 				<a title='Scheda film' class='more' target='_blank' href=".$film[$i]->getElementsByTagName('link').">Scheda film</a>\n
 			</div>";
