@@ -2,6 +2,9 @@
 
 use CGI::Session;
 use CGI;
+use utf8;
+use Encode qw/is_utf8 decode/;
+binmode(STDOUT, ":utf8");
 
 # Get the CGI form data
 $query = new CGI;
