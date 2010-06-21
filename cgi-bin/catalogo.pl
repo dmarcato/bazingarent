@@ -121,10 +121,11 @@ for(my $i=0; $i < $length;$i++) {
 			$tipoBox = 'boxFilmR';
 			$j = 0;
 		}
-		$lista .= "<div class='boxFilmL'>\n
+		$lista .= "<div class='".$tipoBox."'>\n
 				<img src=".$film[$i]->getElementsByTagName('image')." alt=".$film[$i]->getElementsByTagName('titolo')." />\n
 				<p class='titolo'>".$film[$i]->getElementsByTagName('titolo')."</p>\n
 				<p class='info'>".$film[$i]->getElementsByTagName('uscita')."</p>\n
+				<p class='disp'>Disponibilità: ".$film[$i]->getElementsByTagName('disp')."</p>\n
 				<div class='descr'>\n
 					<p class='descrizione'>".$film[$i]->getElementsByTagName('descrizione')."</p>\n
 				</div>\n
