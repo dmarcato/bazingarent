@@ -41,7 +41,7 @@ if ($deleteId) {
 	open(FILE,">$listaFilm") || die("non apro il file db");
 	print FILE $doc->toString();
 	close(FILE);
-	print "Content-type: text/plain\n\nFilm eliminato\n";
+	print "Content-type: text/html\n\nFilm eliminato<br />\n";
 	print '<a href="javascript:history.back();">Torna indietro</a>';
 	exit(0);
 }
