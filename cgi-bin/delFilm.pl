@@ -28,7 +28,7 @@ if (!($status eq 'administrator')) {
 # Eliminazione film
 my $delete = param('deleteId');
 if ($deleteId) {
-	my $listaFilm = '../xml/film.xml';
+	/*my $listaFilm = '../xml/film.xml';
 	my $parser = XML::LibXML->new();
 	my $doc = $parser -> parse_file($listaFilm);
 	my $radice= $doc->getDocumentElement;
@@ -44,7 +44,7 @@ if ($deleteId) {
 	print FILE $doc->toString();
 	close(FILE);
 	print "Content-type: text/plain\n\nFilm aggiunto";
-	exit(0);
+	exit(0);*/
 }
 
 my $file = '../xml/film.xml';
