@@ -75,7 +75,7 @@ for(my $i=0; $i < $length;$i++) {
 	$titolo = $film[$i]->getElementsByTagName('titolo');
 	#$id = $film[$i]->getAttribute('id');
 	@attrs = $film[$i]->attributes();
-	$options .= '<option value="'.$attrs[0].'">'.$titolo.'</option>';
+	$options .= '<option value="'.$attrs[0]->toString.'">'.$titolo.'</option>';
 }
 
 print "<div id='header'>\n
