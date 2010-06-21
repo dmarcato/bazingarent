@@ -25,6 +25,7 @@ if (!($status eq 'administrator')) {
 	exit(0);
 }
 
+print "Content-type: text/html\r\n\r\n";
 print $query->start_html( # inizio pagina HTML
 		-title => 'Eliminazione film',
 		-charset =>'UTF-8',
