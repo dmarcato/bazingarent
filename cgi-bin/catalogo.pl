@@ -33,15 +33,15 @@ print $page->start_html( # inizio pagina HTML
 print "<div id='header'>\n
 	</div>\n";
 		
-print '<div id="path">\n
-			<ul id="navigazione">\n
-				<li><a title="Home del sito" href="index.html" tabindex="1" accessKey="h">Home</a></li>\n
-				<li><a title="I film a disposizione" href="./cgi-bin/catalogo.pl" tabindex="2" accessKey="c">Catalogo</a></li>\n
-				<li><a title="I pi&ugrave; noleggiati" href="noleggiati.html" tabindex="3" accessKey="n">I pi&ugrave; noleggiati</a></li>\n
-				<li class="current"><a title="Come trovarci" href="trovaci.html" tabindex="4" accessKey="t">Come trovarci</a></li>\n
-				<li><a title="I prossimi arrivi" href="prossimamente.html" tabindex="5" accessKey="p">Prossimamente</a></li>\n
+print '<div id="path">
+			<ul id="navigazione">
+				<li><a title="Home del sito" href="index.html" tabindex="1" accessKey="h">Home</a></li>
+				<li><a title="I film a disposizione" href="./cgi-bin/catalogo.pl" tabindex="2" accessKey="c">Catalogo</a></li>
+				<li><a title="I pi&ugrave; noleggiati" href="noleggiati.html" tabindex="3" accessKey="n">I pi&ugrave; noleggiati</a></li>
+				<li class="current"><a title="Come trovarci" href="trovaci.html" tabindex="4" accessKey="t">Come trovarci</a></li>
+				<li><a title="I prossimi arrivi" href="prossimamente.html" tabindex="5" accessKey="p">Prossimamente</a></li>
 			</ul>
-		</div>\n';
+		</div>';
 	
 print "<div id='content'>\n
 
