@@ -105,7 +105,7 @@ for(my $i=0; $i < $length;$i++) {
 	$options .= '<option value="'.$id.'">'.$titolo.'</option>';
 }
 
-print $page->start_html( # inizio pagina HTML
+print $query->start_html( # inizio pagina HTML
 		-title => 'Catalogo',
 		-charset =>'UTF-8',
 		-dtd =>[ '-//W3C//DTD XHTML 1.0 Strict//EN','http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'],
@@ -153,6 +153,6 @@ print "<div id='content'>\n
 		<a href='http://validator.w3.org/check?uri=referer'><img src='../images/css2.gif' alt='Valid CSS 2' /></a>
 	</div>\n";
 
-$page->end_html;
+$query->end_html;
 
 exit(0);
