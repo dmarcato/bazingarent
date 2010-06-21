@@ -2,6 +2,7 @@
 
 use CGI::Session;
 use CGI ':standard';
+use XML::LibXML;
 
 $query = new CGI;
 $cookie = $query->cookie(-name => "session");
@@ -26,8 +27,7 @@ if (!($status eq 'administrator')) {
 
 # Eliminazione film
 my $delete = param('deleteId');
-if ($deleteId) {	
-	use XML::LibXML;
+if ($deleteId) {
 	my $listaFilm = '../xml/film.xml';
 	my $parser = XML::LibXML->new();
 	my $doc = $parser -> parse_file($listaFilm);
