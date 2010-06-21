@@ -4,6 +4,7 @@ print "Content-type: text/html\r\n\r\n";
 use strict;
 use CGI ':standard';
 use XML::LibXML;
+use utf8;
 
 my $lettera = param('letter');
 if (!$lettera) {
