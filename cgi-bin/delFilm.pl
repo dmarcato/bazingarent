@@ -32,7 +32,7 @@ if ($deleteId) {
 	my $parser = XML::LibXML->new();
 	my $doc = $parser -> parse_file($listaFilm);
 	my $radice= $doc->getDocumentElement;
-	my @lastFilm = $doc->findnodes('lista/film[@id=\"'.$deleteId.'\"]');
+	my @lastFilm = $doc->findnodes('lista/film[@id="'.$deleteId.'"]');
 	$lastFilm[0]->unbindNode;
 	# Scrive il documento modificato nel file XML d'origine
 	#open(FILE,">$listaFilm") || die("non apro il file db");
@@ -73,9 +73,8 @@ my $options = '';
 for(my $i=0; $i < $length;$i++) {
 	$titolo = $film[$i]->getElementsByTagName('titolo');
 	#$id = $film[$i]->getAttribute('id');
-	#@attrs = $film[$i]->attributes();
-	#$options .= '<option value="'.$attrs[0].'">'.$titolo.'</option>';
-	$options .= '<option>'.$titolo.'</option>';
+	@attrs = $film[$i]->attributes();
+	$options .= '<option value="'.$attrs[0].'">'.$titolo.'</option>';
 }
 
 print "<div id='header'>\n
