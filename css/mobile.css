@@ -172,6 +172,14 @@ p.intro {
 	font-weight: bold;
 }
 
+.boxFilmL .titolo {
+	color: #FF0000;
+}
+
+.boxFilmR .titolo {
+	color: #FF0000;
+}
+
 .boxFilmL .info {
 	font-size: 0.8em;
 }
