@@ -25,21 +25,6 @@ if (!($status eq 'administrator')) {
 	exit(0);
 }
 
-print "Content-type: text/html\r\n\r\n";
-print $query->start_html( # inizio pagina HTML
-		-title => 'Eliminazione film',
-		-charset =>'UTF-8',
-		-dtd =>[ '-//W3C//DTD XHTML 1.0 Strict//EN','http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'],
-		-lang =>'it',
-		-meta => {'keywords' => 'noleggio, video, film, bazinga',
-			'description' => 'Noleggio film',
-			'author' => 'BazingaSoft'},
-		-style => [{-src => ['../css/main.css'],
-			-media => 'screen'},
-			{-src => ['../css/mobile.css'],
-			-media => 'handheld'}]
-);
-
 # Eliminazione film
 my $deleteId = param('deleteId');
 if ($deleteId) {
@@ -57,6 +42,21 @@ if ($deleteId) {
 	print $doc->toString;
 	exit(0);
 }
+
+print "Content-type: text/html\r\n\r\n";
+print $query->start_html( # inizio pagina HTML
+		-title => 'Eliminazione film',
+		-charset =>'UTF-8',
+		-dtd =>[ '-//W3C//DTD XHTML 1.0 Strict//EN','http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'],
+		-lang =>'it',
+		-meta => {'keywords' => 'noleggio, video, film, bazinga',
+			'description' => 'Noleggio film',
+			'author' => 'BazingaSoft'},
+		-style => [{-src => ['../css/main.css'],
+			-media => 'screen'},
+			{-src => ['../css/mobile.css'],
+			-media => 'handheld'}]
+);
 
 my $file = '../xml/film.xml';
 #creazione oggetto parser
