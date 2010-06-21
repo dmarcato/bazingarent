@@ -26,25 +26,20 @@ if (!($status eq 'administrator')) {
 }
 
 # Eliminazione film
-my $delete = param('deleteId');
+my $deleteId = param('deleteId');
 if ($deleteId) {
-	/*my $listaFilm = '../xml/film.xml';
+	my $listaFilm = '../xml/film.xml';
 	my $parser = XML::LibXML->new();
 	my $doc = $parser -> parse_file($listaFilm);
 	my $radice= $doc->getDocumentElement;
-	my @lastFilm = $doc->findnodes("/lista/film[last()]");
-	my $id = $lastFilm[0]->getAttribute('id') + 1;
-	# Parsing del nuovo nodo
-	my $frammento = $parser->parse_balanced_chunk($nuovo);
-	# Viene aggiunto in coda il nodo creato prima
-	#my $first = $radice->getFirstChild();
-	$radice->insertAfter($frammento, $radice);
+	my $lastFilm = $doc->findnodes("/lista/film[@id=".$deleteId."]");
+	lastFilm->unbindNode();
 	# Scrive il documento modificato nel file XML d'origine
 	open(FILE,">$listaFilm") || die("non apro il file db");
 	print FILE $doc->toString();
 	close(FILE);
-	print "Content-type: text/plain\n\nFilm aggiunto";
-	exit(0);*/
+	print "Content-type: text/plain\n\nFilm eliminato";
+	exit(0);
 }
 
 my $file = '../xml/film.xml';
