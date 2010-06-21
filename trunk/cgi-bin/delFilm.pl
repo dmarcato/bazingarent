@@ -42,6 +42,7 @@ if ($deleteId) {
 	print FILE $doc->toString();
 	close(FILE);
 	print "Content-type: text/plain\n\nFilm eliminato\n";
+	print '<a href="javascript:history.back();">Torna indietro</a>';
 	exit(0);
 }
 
