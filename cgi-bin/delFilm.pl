@@ -56,7 +56,7 @@ my $options = '';
 
 for(my $i=0; $i < $length;$i++) {
 	$titolo = $film[$i]->getElementsByTagName('titolo');
-	$id = $film[$i]->getAttribute('id');
+	#$id = $film[$i]->getAttribute('id');
 	$options .= '<option value="'.$id.'">'.$titolo.'</option>';
 }
 
