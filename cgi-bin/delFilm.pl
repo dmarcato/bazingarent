@@ -25,22 +25,8 @@ if (!($status eq 'administrator')) {
 }
 
 # Eliminazione film
-my $insert = param('insert');
-if ($insert) {
-	my $titolo = param('titolo');
-	my $regista = param('regista');
-	my $cast = param('cast');
-	my $genere = param('genere');
-	my $uscita = param('uscita');
-	my $descrizione = param('descrizione');
-	my $image = param('image');
-	my $dataGG = param('dataGG');
-	my $dataMM = param('dataMM');
-	my $dataAA = param('dataAA');
-	my $link = param('link');
-	my $disp = param('disp');
-	my $noleggi = param('noleggi');
-	
+my $delete = param('deleteId');
+if ($deleteId) {	
 	use XML::LibXML;
 	my $listaFilm = '../xml/film.xml';
 	my $parser = XML::LibXML->new();
@@ -78,15 +64,6 @@ if ($insert) {
 	exit(0);
 }
 
-print "Content-type: text/html\r\n\r\n";
-open FILE, "../addFilm.html" or die "$!";
-binmode FILE;
-my ($data, $n);
-while (($n = read FILE, $data, 4) != 0) {
-  print $data;
-}
-close(FILE);
-
 my $file = '../xml/film.xml';
 #creazione oggetto parser
 my $parser = XML::LibXML->new();
@@ -106,7 +83,7 @@ for(my $i=0; $i < $length;$i++) {
 }
 
 print $query->start_html( # inizio pagina HTML
-		-title => 'Catalogo',
+		-title => 'Eliminazione film',
 		-charset =>'UTF-8',
 		-dtd =>[ '-//W3C//DTD XHTML 1.0 Strict//EN','http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'],
 		-lang =>'it',
@@ -116,8 +93,7 @@ print $query->start_html( # inizio pagina HTML
 		-style => [{-src => ['../css/main.css'],
 			-media => 'screen'},
 			{-src => ['../css/mobile.css'],
-			-media => 'handheld'}],
-		-script => [{-src => '../js/jquery-1.4.2.min.js'}, '$(document).ready(function() { $("#lettera'.$lettera.'").addClass("current"); });'] 
+			-media => 'handheld'}] 
 );
 
 print "<div id='header'>\n
@@ -141,7 +117,7 @@ print "<div id='content'>\n
 		
 		<form action=\"#\" method=\"post\">
 		Scegli il film da eliminare:&nbsp;
-		<select name=\"film\">".$options."</select><br />
+		<select name=\"deleteId\">".$options."</select><br />
 		<input type=\"submit\" value=\"Elimina\" />
 		</form>
 		
