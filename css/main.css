@@ -143,7 +143,7 @@ p.intro {
 	padding: 1em;
 	margin-bottom: 0.5em;
 	overflow: auto;
-	height: 214px;
+	height: 220px;
 }
 
 .boxFilmR {
@@ -152,7 +152,7 @@ p.intro {
 	padding: 1em;
 	margin-bottom: 0.5em;
 	overflow: auto;
-	height: 214px;
+	height: 220px;
 }
 
 .boxFilmL img {
@@ -175,6 +175,14 @@ p.intro {
 
 .boxFilmR .titolo {
 	font-weight: bold;
+}
+
+.boxFilmL .disp {
+	color: #FF0000;
+}
+
+.boxFilmR .disp {
+	color: #FF0000;
 }
 
 .boxFilmL .info {

@@ -15,6 +15,7 @@
 					</img>
 					<p class="titolo"><xsl:value-of select="titolo" /></p>
 					<p class="info"><xsl:value-of select="uscita" /></p>
+					<p class="disp">Disponibilità: <xsl:value-of select="disp" /></p>
 					<div class="descr">
 						<p class="descrizione"><xsl:value-of select="descrizione" /></p>
 					</div>
@@ -34,6 +35,7 @@
 					</img>
 					<p class="titolo"><xsl:value-of select="titolo" /></p>
 					<p class="info"><xsl:value-of select="uscita" /></p>
+					<p class="disp">Disponibilità: <xsl:value-of select="disp" /></p>
 					<div class="descr">
 						<p class="descrizione"><xsl:value-of select="descrizione" /></p>
 					</div>
