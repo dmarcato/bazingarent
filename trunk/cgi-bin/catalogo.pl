@@ -150,4 +150,4 @@ print "</div>\n
 		<a href='http://validator.w3.org/check?uri=referer'><img src='../images/css2.gif' alt='Valid CSS 2' /></a>
 	</div>\n";
 
-$page->end_html;
+print $page->end_html;
