@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<xsl:output method='html' version='1.0' encoding='UTF-8' indent='yes'/>
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:output method='html' version='1.0' encoding='UTF-8' indent='yes' />
 <xsl:template match="/">
 	
 		<xsl:for-each select="lista/film">
@@ -15,7 +15,7 @@
 					</img>
 					<p class="titolo"><xsl:value-of select="titolo" /></p>
 					<p class="info"><xsl:value-of select="uscita" /></p>
-					<p class="disp">Disponibilità: <xsl:value-of select="disp" /></p>
+					<p class="disp">DisponibilitÃ : <xsl:value-of select="disp" /></p>
 					<div class="descr">
 						<p class="descrizione"><xsl:value-of select="descrizione" /></p>
 					</div>
@@ -35,7 +35,7 @@
 					</img>
 					<p class="titolo"><xsl:value-of select="titolo" /></p>
 					<p class="info"><xsl:value-of select="uscita" /></p>
-					<p class="disp">Disponibilità: <xsl:value-of select="disp" /></p>
+					<p class="disp">DisponibilitÃ : <xsl:value-of select="disp" /></p>
 					<div class="descr">
 						<p class="descrizione"><xsl:value-of select="descrizione" /></p>
 					</div>
