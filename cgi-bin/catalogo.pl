@@ -29,7 +29,9 @@ print $page->start_html( # inizio pagina HTML
 		-style => [{-src => ['../css/main.css'],
 			-media => 'screen'},
 			{-src => ['../css/mobile.css'],
-			-media => 'handheld'}],
+			-media => 'handheld'},
+			{-src => ['../css/print.css'],
+			-media => 'print'}],
 		-script => [{-src => '../js/jquery-1.4.2.min.js'}, '$(document).ready(function() { $("#lettera'.$lettera.'").addClass("current"); });'] 
 );
 
