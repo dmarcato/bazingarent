@@ -131,7 +131,7 @@ for(my $i=0; $i < $length;$i++) {
 				<div class='descr'>\n
 					<p class='descrizione'>".$film[$i]->getElementsByTagName('descrizione')."</p>\n
 				</div>\n
-				<a title='Scheda film' class='more' target='_blank' href='".$film[$i]->getElementsByTagName('link')."'>Scheda film</a>\n
+				<a title='Scheda film' class='more' href='".$film[$i]->getElementsByTagName('link')."'>Scheda film</a>\n
 			</div>";
 		#print $titolo[$i]." ".$i." ";
 	}
