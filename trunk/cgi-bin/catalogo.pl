@@ -59,32 +59,32 @@ print "<div id='content'>\n
 		</div>\n
 		
 		<p class='lettereCatalogo'>
-			<a href='?letter=1' id='lettera1'>#</a>
-			<a href='?letter=A' id='letteraA'>A</a>
-			<a href='?letter=B' id='letteraB'>B</a>
-			<a href='?letter=C' id='letteraC'>C</a>
-			<a href='?letter=D' id='letteraD'>D</a>
-			<a href='?letter=E' id='letteraE'>E</a>
-			<a href='?letter=F' id='letteraF'>F</a>
-			<a href='?letter=G' id='letteraG'>G</a>
-			<a href='?letter=H' id='letteraH'>H</a>
-			<a href='?letter=I' id='letteraI'>I</a>
-			<a href='?letter=J' id='letteraJ'>J</a>
-			<a href='?letter=K' id='letteraK'>K</a>
-			<a href='?letter=L' id='letteraL'>L</a>
-			<a href='?letter=M' id='letteraM'>M</a>
-			<a href='?letter=N' id='letteraN'>N</a>
-			<a href='?letter=O' id='letteraO'>O</a>
-			<a href='?letter=P' id='letteraP'>P</a>
-			<a href='?letter=Q' id='letteraQ'>Q</a>
-			<a href='?letter=R' id='letteraR'>R</a>
-			<a href='?letter=S' id='letteraS'>S</a>
-			<a href='?letter=T' id='letteraT'>T</a>
-			<a href='?letter=U' id='letteraU'>U</a>
-			<a href='?letter=V' id='letteraV'>V</a>
-			<a href='?letter=W' id='letteraW'>W</a>
-			<a href='?letter=X' id='letteraX'>X</a>
-			<a href='?letter=Y' id='letteraY'>Y</a>
+			<a href='?letter=1' id='lettera1'>#</a>&nbsp;
+			<a href='?letter=A' id='letteraA'>A</a>&nbsp;
+			<a href='?letter=B' id='letteraB'>B</a>&nbsp;
+			<a href='?letter=C' id='letteraC'>C</a>&nbsp;
+			<a href='?letter=D' id='letteraD'>D</a>&nbsp;
+			<a href='?letter=E' id='letteraE'>E</a>&nbsp;
+			<a href='?letter=F' id='letteraF'>F</a>&nbsp;
+			<a href='?letter=G' id='letteraG'>G</a>&nbsp;
+			<a href='?letter=H' id='letteraH'>H</a>&nbsp;
+			<a href='?letter=I' id='letteraI'>I</a>&nbsp;
+			<a href='?letter=J' id='letteraJ'>J</a>&nbsp;
+			<a href='?letter=K' id='letteraK'>K</a>&nbsp;
+			<a href='?letter=L' id='letteraL'>L</a>&nbsp;
+			<a href='?letter=M' id='letteraM'>M</a>&nbsp;
+			<a href='?letter=N' id='letteraN'>N</a>&nbsp;
+			<a href='?letter=O' id='letteraO'>O</a>&nbsp;
+			<a href='?letter=P' id='letteraP'>P</a>&nbsp;
+			<a href='?letter=Q' id='letteraQ'>Q</a>&nbsp;
+			<a href='?letter=R' id='letteraR'>R</a>&nbsp;
+			<a href='?letter=S' id='letteraS'>S</a>&nbsp;
+			<a href='?letter=T' id='letteraT'>T</a>&nbsp;
+			<a href='?letter=U' id='letteraU'>U</a>&nbsp;
+			<a href='?letter=V' id='letteraV'>V</a>&nbsp;
+			<a href='?letter=W' id='letteraW'>W</a>&nbsp;
+			<a href='?letter=X' id='letteraX'>X</a>&nbsp;
+			<a href='?letter=Y' id='letteraY'>Y</a>&nbsp;
 			<a href='?letter=Z' id='letteraZ'>Z</a>
 		</p>
 		
