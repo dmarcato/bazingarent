@@ -48,8 +48,7 @@ if ($deleteId) {
 
 print "Content-type: text/html\r\n\r\n";
 print $query->start_html( # inizio pagina HTML
-		-title => 'Eliminazione film',
-		-charset =>'UTF-8',
+		-title => 'Eliminazione film - Bazinga Rent',
 		-encoding => 'UTF-8',
 		-dtd =>[ '-//W3C//DTD XHTML 1.0 Strict//EN','http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'],
 		-lang =>'it',
