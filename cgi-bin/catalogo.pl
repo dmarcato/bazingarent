@@ -55,7 +55,7 @@ print "<div id='content'>\n
 			<form action='#' method='get'>\n
 				<div>\n
 				Cerca: <input type='text' id='txtCerca' name='txtCerca' value='".$cerca."' />&nbsp;<input type='submit' value='Vai!' />\n
-				<div>\n
+				</div>\n
 			</form>\n
 		</div>\n
 		
