@@ -36,6 +36,7 @@ print $page->start_html( # inizio pagina HTML
 );
 
 print "<div id='header'>\n
+		<span>Bazinga Rent</span>\n
 	</div>\n";
 		
 print '<div id="path">
