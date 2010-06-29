@@ -30,12 +30,12 @@ a:hover {
 
 #header {
 	background: #fff;
-}
-
-#header:after {
 	font-size: 2em;
 	text-align: center;
 	width: 100%;
+}
+
+#header:after {
 	content: "Bazinga Rent";
 }
 
