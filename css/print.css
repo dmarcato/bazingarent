@@ -1,5 +1,31 @@
 body {
 	background-color: #fff;
+	color: #000000;
+	margin: 0;
+	padding: 0;
+	font-size: 0.8em;
+	font-family: Lucida, Verdana, Arial;
+}
+
+img {
+	border: 0;
+}
+
+a,a:link {
+	color: #000000;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #000000;
+	text-decoration: underline;
+	font-style: italic;
+}
+
+a:hover {
+	color: #000000;
+	background-color: #fff;
+	text-decoration: none;
 }
 
 #header {
@@ -15,14 +41,49 @@ body {
 	display: none;
 }
 
+#navigazione {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 1.3em;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+#navigazione li {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0.5em;
+}
+
+#navigazione li.current, #navigazione li:hover {
+	background-color: #fff;
+}
+
+#navigazione a, #navigazione a:link, #navigazione a:visited, #navigazione a:hover {
+	color: #110e86;
+}
+
 #content {
 	background: #fff;
+	margin: auto;
 	width: 95%;
+	padding: 1em;
 	border: 0;
 }
 
 h1 {
 	color: #000;
+	font-size: 1.9em;
+	margin: 0.3em;
+}
+
+#footer {
+	text-align: center;
+	font-size: 0.7em;
+	padding: 5px 0px 5px 0px;
+	clear: both;
+	width: 100%;
 }
 
 #footer img {
@@ -30,5 +91,142 @@ h1 {
 }
 
 p.intro {
+	text-align: center;
+	margin: auto;
+	width: 98%;
+	padding: 0.3em;
+	border: 0;
 	background-color: #fff;
+}
+
+#descrizioneMappaTop {
+	width: 70%;
+	padding: 0.3em;
+	border: 1px solid #fff;
+	background-color: #a4c0ee;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 8px;
+}
+
+#mappa {
+	text-align: center;
+	clear: both;
+}
+
+#descrizioneMappaBottom {
+	width: 70%;
+	padding: 0.3em;
+	border: 1px solid #fff;
+	background-color: #a4c0ee;
+	text-align: center;
+	margin: auto;
+}
+
+
+.contBox {
+	width: 100%;
+	clear: both;
+	display: inline-block;
+}
+
+.boxFilmL {
+	float: left;
+	width: 45%;
+	padding: 1em;
+	margin-bottom: 0.5em;
+	overflow: auto;
+	height: 220px;
+}
+
+.boxFilmR {
+	float: right;
+	width: 45%;
+	padding: 1em;
+	margin-bottom: 0.5em;
+	overflow: auto;
+	height: 220px;
+}
+
+.boxFilmL img {
+	float: left;
+	width: 150px;
+	height: 213px;
+	margin-right: 0.5em;
+}
+
+.boxFilmR img {
+	float: left;
+	width: 150px;
+	height: 213px;
+	margin-right: 0.5em;
+}
+
+.boxFilmL .titolo {
+	font-weight: bold;
+}
+
+.boxFilmR .titolo {
+	font-weight: bold;
+}
+
+.boxFilmL .disp {
+	color: #FF0000;
+}
+
+.boxFilmR .disp {
+	color: #FF0000;
+}
+
+.boxFilmL .info {
+	font-size: 0.8em;
+}
+
+.boxFilmR .info {
+	font-size: 0.8em;
+}
+
+.boxFilmL .more {
+	float: right;
+}
+
+.boxFilmR .more {
+	float: right;
+}
+
+#cerca {
+	float: right;
+	margin:1em;
+}
+
+#txtCerca {
+	width: 200px;
+}
+
+#map {
+	width: 70%;
+	margin: auto;
+}
+
+#mapPic {
+	display:none;
+}
+
+.lettereCatalogo {
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+.lettereCatalogo a {
+	margin-right: 8px;
+	color: #110e86;
+}
+
+.lettereCatalogo a.current {
+	background-color: #fff;
+}
+
+#loginBox {
+	margin: auto;
+	text-align: center;
 }
