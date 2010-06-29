@@ -29,15 +29,19 @@ a:hover {
 }
 
 #header {
-	background: #fff;
+	width: 100%;
+	height: 150px;
+	clear: both;
+	background-image: url("../images/header.png");
+	background-repeat: no-repeat;
+	background-position: center;
 	font-size: 2.5em;
 	text-align: center;
 	font-weight: bold;
-	width: 100%;
 }
 
-#header:after {
-	content: "Bazinga Rent";
+#header span {
+	display: inline;
 }
 
 #path {

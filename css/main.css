@@ -35,6 +35,13 @@ a:hover {
 	background-image: url("../images/header.png");
 	background-repeat: no-repeat;
 	background-position: center;
+	font-size: 2.5em;
+	text-align: center;
+	font-weight: bold;
+}
+
+#header span {
+	display: none;
 }
 
 #path {
