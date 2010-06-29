@@ -38,11 +38,7 @@ a:hover {
 }
 
 #path {
-	width: 100%;
-	clear: both;
-	border-top: 1px solid #ffffff;
-	border-bottom: 1px solid #ffffff;
-	text-align: center;
+	display: none;
 }
 
 #navigazione {
