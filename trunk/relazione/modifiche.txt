@@ -1,0 +1,5 @@
+- Titoli pagine cambiati
+- Meta description cambiati
+- Meta keywords cambiati
+- Pagina catalogo sistemata (errori apici, no stampa chiusura body, stampa errata attributo charset su body)
+- Rimossi target="_blank" da tutti i link

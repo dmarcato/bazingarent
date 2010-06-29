@@ -20,7 +20,6 @@ my $page = new CGI;
 #$page->header(-charset=>'UTF-8'); # crea l'header HTTP
 print $page->start_html( # inizio pagina HTML
 		-title => 'Catalogo - Bazinga Rent',
-		#-charset =>'UTF-8',
 		-encoding => 'UTF-8',
 		-dtd =>[ '-//W3C//DTD XHTML 1.0 Strict//EN','http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'],
 		-lang =>'it',
@@ -54,7 +53,7 @@ print "<div id='content'>\n
 		<div id='cerca'>\n
 			<form action='#' method='get'>\n
 				<div>\n
-				Cerca: <input type='text' id='txtCerca' name='txtCerca' value='".$cerca."' />&nbsp;<input type='submit' value='Vai!' />\n
+				<label for='txtCerca'>Cerca:</label>&nbsp;<input type='text' id='txtCerca' name='txtCerca' value='".$cerca."' />&nbsp;<input type='submit' value='Vai!' />\n
 				</div>\n
 			</form>\n
 		</div>\n
