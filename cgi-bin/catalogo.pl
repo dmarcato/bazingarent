@@ -39,11 +39,11 @@ print "<div id='header'>\n
 		
 print '<div id="path">
 			<ul id="navigazione">
-				<li><a title="Home del sito" href="../index.html" tabindex="1" accessKey="h">Home</a></li>
-				<li class="current"><a title="I film a disposizione" href="./cgi-bin/catalogo.pl" tabindex="2" accessKey="c">Catalogo</a></li>
-				<li><a title="I pi&ugrave; noleggiati" href="../noleggiati.html" tabindex="3" accessKey="n">I pi&ugrave; noleggiati</a></li>
-				<li><a title="Come trovarci" href="../trovaci.html" tabindex="4" accessKey="t">Come trovarci</a></li>
-				<li><a title="I prossimi arrivi" href="../prossimamente.html" tabindex="5" accessKey="p">Prossimamente</a></li>
+				<li><a title="Home del sito" href="../index.html" tabindex="1" accesskey="h">Home</a></li>
+				<li class="current"><a title="I film a disposizione" href="./cgi-bin/catalogo.pl" tabindex="2" accesskey="c">Catalogo</a></li>
+				<li><a title="I pi&ugrave; noleggiati" href="../noleggiati.html" tabindex="3" accesskey="n">I pi&ugrave; noleggiati</a></li>
+				<li><a title="Come trovarci" href="../trovaci.html" tabindex="4" accesskey="t">Come trovarci</a></li>
+				<li><a title="I prossimi arrivi" href="../prossimamente.html" tabindex="5" accesskey="p">Prossimamente</a></li>
 			</ul>
 		</div>';
 	
@@ -122,14 +122,14 @@ for(my $i=0; $i < $length;$i++) {
 			$j = 0;
 		}
 		$lista .= "<div class='".$tipoBox."'>\n
-				<img src=".$film[$i]->getElementsByTagName('image')." alt=".$film[$i]->getElementsByTagName('titolo')." />\n
+				<img src='".$film[$i]->getElementsByTagName('image')."' alt='".$film[$i]->getElementsByTagName('titolo')."' />\n
 				<p class='titolo'>".$film[$i]->getElementsByTagName('titolo')."</p>\n
 				<p class='info'>".$film[$i]->getElementsByTagName('uscita')."</p>\n
 				<p class='disp'>Disponibilit&agrave;: ".$film[$i]->getElementsByTagName('disp')."</p>\n
 				<div class='descr'>\n
 					<p class='descrizione'>".$film[$i]->getElementsByTagName('descrizione')."</p>\n
 				</div>\n
-				<a title='Scheda film' class='more' target='_blank' href=".$film[$i]->getElementsByTagName('link').">Scheda film</a>\n
+				<a title='Scheda film' class='more' target='_blank' href='".$film[$i]->getElementsByTagName('link')."'>Scheda film</a>\n
 			</div>";
 		#print $titolo[$i]." ".$i." ";
 	}
