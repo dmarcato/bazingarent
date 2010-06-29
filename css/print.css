@@ -201,8 +201,7 @@ p.intro {
 }
 
 #cerca {
-	float: right;
-	margin:1em;
+	display: none;
 }
 
 #txtCerca {
@@ -219,8 +218,7 @@ p.intro {
 }
 
 .lettereCatalogo {
-	font-size: 1.4em;
-	font-weight: bold;
+	display: none;
 }
 
 .lettereCatalogo a {

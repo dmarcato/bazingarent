@@ -82,6 +82,7 @@ for(my $i=0; $i < $length;$i++) {
 }
 
 print "<div id='header'>\n
+		<span>Bazinga Rent</span>\n
 	</div>\n";
 		
 print "<div id='path'>\n
