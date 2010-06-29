@@ -155,6 +155,7 @@ p.intro {
 }
 
 .boxFilmL img {
+	display: none;
 	float: left;
 	width: 150px;
 	height: 213px;
@@ -162,6 +163,7 @@ p.intro {
 }
 
 .boxFilmR img {
+	display: none;
 	float: left;
 	width: 150px;
 	height: 213px;
