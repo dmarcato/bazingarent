@@ -102,8 +102,8 @@ p.intro {
 #descrizioneMappaTop {
 	width: 70%;
 	padding: 0.3em;
-	border: 1px solid #fff;
-	background-color: #a4c0ee;
+	border: 0;
+	background-color: #fff;
 	text-align: center;
 	margin: auto;
 	margin-bottom: 8px;
@@ -117,8 +117,8 @@ p.intro {
 #descrizioneMappaBottom {
 	width: 70%;
 	padding: 0.3em;
-	border: 1px solid #fff;
-	background-color: #a4c0ee;
+	border: 0;
+	background-color: #fff;
 	text-align: center;
 	margin: auto;
 }
@@ -171,11 +171,11 @@ p.intro {
 }
 
 .boxFilmL .disp {
-	color: #FF0000;
+	color: #000;
 }
 
 .boxFilmR .disp {
-	color: #FF0000;
+	color: #000;
 }
 
 .boxFilmL .info {
@@ -219,7 +219,7 @@ p.intro {
 
 .lettereCatalogo a {
 	margin-right: 8px;
-	color: #110e86;
+	color: #000;
 }
 
 .lettereCatalogo a.current {
