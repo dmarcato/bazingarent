@@ -40,6 +40,7 @@ print "<div id='header'>\n
 	</div>\n";
 		
 print '<div id="path">
+			<a class="aiuti" href="#content">Salta il menu</a>
 			<ul id="navigazione">
 				<li><a title="Home del sito" href="../index.html" tabindex="1" accesskey="h">Home</a></li>
 				<li class="current"><a title="I film a disposizione" href="./cgi-bin/catalogo.pl" tabindex="2" accesskey="c">Catalogo</a></li>
@@ -54,6 +55,7 @@ print "<div id='content'>\n
 		<h1>Catalogo</h1>\n
 
 		<div id='cerca'>\n
+			<a class='aiuti' href='#listaFilmCatalogo'>Salta il modulo di ricerca film</a>
 			<form action='#' method='get'>\n
 				<div>\n
 				<label for='txtCerca'>Cerca:</label>&nbsp;<input type='text' id='txtCerca' name='txtCerca' value='".$cerca."' />&nbsp;<input type='submit' value='Vai!' />\n
@@ -62,6 +64,7 @@ print "<div id='content'>\n
 		</div>\n
 		
 		<p class='lettereCatalogo'>
+			<a class='aiuti' href='#listaFilmCatalogo'>Salta la lista di ricerca per lettera</a>
 			<a href='?letter=1' id='lettera1'>#</a>&nbsp;
 			<a href='?letter=A' id='letteraA'>A</a>&nbsp;
 			<a href='?letter=B' id='letteraB'>B</a>&nbsp;
@@ -91,7 +94,7 @@ print "<div id='content'>\n
 			<a href='?letter=Z' id='letteraZ'>Z</a>
 		</p>
 		
-		<div class='contBox'>\n";
+		<div class='contBox' id='listaFilmCatalogo'>\n";
 
 if ($lettera =~ '1') {
 	$lettera = '[0-9]';

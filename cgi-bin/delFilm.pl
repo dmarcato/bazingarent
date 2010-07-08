@@ -86,6 +86,7 @@ print "<div id='header'>\n
 	</div>\n";
 		
 print "<div id='path'>\n
+		<a class='aiuti' href='#content'>Salta il menu</a>
 		<ul id='navigazione'>\n
 			<li><a href='../index.html'>Home</a></li>\n
 			<li class='current'><a href='#'>Catalogo</a></li>\n
