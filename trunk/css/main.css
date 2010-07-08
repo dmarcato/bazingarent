@@ -12,20 +12,21 @@ img {
 }
 
 a,a:link {
-	color: #000000;
+	color: #0000FF;
 	text-decoration: underline;
 }
 
 a:visited {
-	color: #000000;
+	color: #800080;
 	text-decoration: underline;
 	font-style: italic;
 }
 
 a:hover {
-	color: #000000;
+	color: #FF0000;
 	background-color: #fff;
 	text-decoration: none;
+	font-variant: small-caps;
 }
 
 #header {
