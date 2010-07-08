@@ -249,3 +249,7 @@ p.intro {
 .aiuti {
 	display: none;
 }
+
+.backToTop {
+	float: right;
+}
