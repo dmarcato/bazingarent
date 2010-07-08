@@ -247,5 +247,10 @@ p.intro {
 }
 
 .aiuti {
-	display: none;
+	visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 0px;
+	width: 0px;
 }
