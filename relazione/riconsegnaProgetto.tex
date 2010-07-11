@@ -1,0 +1,96 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[italian]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{graphicx}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage{color}
+\usepackage{hyperref}
+\pagestyle{fancy}
+
+
+\title{\textbf{Riconsegna progetto BazingaRent (TecWeb)}}
+
+\lfoot{BazingaRent}
+\cfoot{}
+\rfoot{\thepage /\pageref{LastPage}}
+
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\renewcommand{\sectionmark}[1]{
+\markboth{}{}}
+
+\hypersetup{
+colorlinks=true,
+linkcolor=blue
+}
+
+\begin{document}
+	 
+	\maketitle
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%% SOMMARIO
+	\begin{abstract}
+	Questo documento contiene l'elenco e la spiegazione delle correzioni effettuate al progetto di Tecnologie Web denominato BazingaRent.
+	\end{abstract}
+	
+	\newpage
+	\tableofcontents
+	\newpage
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SEZIONE 1
+
+	\section{Correzioni e Aggiunte}
+	Qui di seguito vengono elencate le correzioni e le aggiunte effettuate al progetto.
+
+		\subsection{Modificati i titoli delle pagine}
+			Sono stati modificati i titoli delle pagine che erano uguali per ogni sezione. Ora invece vengono visualizzate le informazioni partendo dalle più specifiche arrivando alle meno specifiche, ad esempio per la pagina \textit{Catalogo} il titolo è: Catalogo - BazingaRent. Ora semplicemente leggendo il titolo della pagina è immediato individuare in che sezione del sito ci si trova.
+			
+		\subsection{Modificati i meta description}
+			I meta description contengono una breve descrizione dei contenuti della pagina. Dato che erano uguali in tutte le nostre pagine, sono stati modificati ed ora sono specifici per ogni pagina. In questo modo sono più facilmente indicizzabili dai motori di ricerca.
+			
+		\subsection{Modificati i meta keywords}
+			I meta keywords contengono un insieme di parole chiave inerenti alla pagina. Sono stati modificati rendendoli specifici per ogni sezione del nostro sito, in maniera da descrivere meglio le pagine e migliorare l'indicizzazione nei motori di ricerca.
+			
+		\subsection{Modificata accessibilità link}
+			Sono stati modificati i link adottando i colori standard per i link da visitare, attivi, al passaggio del puntatore e visitati. Inoltre per migliorare l'accessibilità, al passaggio del mouse viene trasformato il font in maiuscoletto in modo da rendere il cambiamento percepibile anche alle persone con disturbi legati alla percezione dei colori.
+			
+		\subsection{Pagina in Perl (Catalogo) resa standard}
+			E' stata resa standard la pagina \textit{Catalogo} che viene generata in Perl. Sono stati corretti alcuni errori nella generazione del codice XHTML che rendevano invalida la pagina (ad esempio venivano stampati degli attributi errati).
+			
+		\subsection{Rimossi gli attributi target blank}
+			Sono stati rimossi questi attributi che non appartengono allo standard XHTML 1.0 Strict.
+			
+		\subsection{Aggiunto il css per la stampa}
+			E' stato creato il css che verrà utilizzato qualora l'utente richiederà la stampa della pagina. In questo particolare foglio di stile vengono rimosse le immagini, si visualizzano solamente i contenuti e la pagina viene trasformata completamente in bianco e nero. In questo modo la stampa viene resa molto leggera.
+			
+		\subsection{Aggiunto contenuto testuale sotto il banner}
+			E' stato aggiunto il titolo testuale al di sotto del banner, che però viene tenuto nascosto. Questa tecnica è stata adottata in modo che un eventuale screen reader, che non riuscirebbe a leggere il banner in quanto immagine, trova invece il titolo testuale e lo legge.
+			
+		\subsection{Aggiunti link nascosti utili agli screen reader}
+			Sono stati aggiunti dei link nascosti nella normale visualizzazione del sito, che però verranno letti da un eventuale screen reader e permetteranno all'utente di saltare la lettura del menu di navigazione e l'elenco delle lettere nella pagina di ricerca del catalogo.
+			
+		\subsection{Aggiunto messaggio nel caso in cui javascript non sia supportato}
+			E' stato aggiunto un messaggio che verrà visualizzato nel caso in cui si utilizzi un browser che non supporta javascript. Le pagine \textit{Catalogo} e \textit{Come trovarci} invece non necessitano di javascript e vengono visualizzate tranquillamente anche senza di esso. Essendo la pagina \textit{Catalogo} visualizzabile sempre, anche in caso di mancanza di javascript, la totalità dei contenuti risulta disponibile in ogni caso rendendo ugualmente utilizzabile il sito.
+			
+		\newpage
+			
+		\subsection{Eseguiti i test necessari}
+			Dopo aver effettuato tutte queste modifiche sono stati rieffettuati tutti i test necessari:
+			\begin{itemize}
+				\item{Validazione pagine e fogli di stile tramite strumenti automatici: superato.}
+				\item{Funzionamento sui principali browser: superato.}
+				\item{Corretta visualizzazione su terminali handheld: superato.}
+				\item{Corretta visualizzazione su browser testuali: superato.}
+				\item{Corretta visualizzazione in caso di script disattivati: superato.}
+				\item{Corretta visualizzazione in caso di immagini non caricate: superato.}
+				\item{Corretta visualizzazione in caso di fogli di stile non caricati: superato.}
+				\item{Corretta visualizzazione su schermi con risoluzione bassa: superato.}
+				\item{Test con screen reader Fangs: superato.}
+				\item{Test con magnifier per disabilità visive (ipovedenti): superato.}
+				\item{Test su http://gmazzocato.altervista.org/colorwheel/wheel.php?lingua=it con la ruota dei colori accessibili: superato.}
+				\item{Test di accessibilità attraverso strumento di valutazione automatico: superato}
+			\end{itemize}
+			
+\end{document}
